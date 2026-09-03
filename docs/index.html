@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meme Agent — Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #14161a;
+    --panel: #1b1e24;
+    --panel-line: #2a2e37;
+    --text: #e8e6e1;
+    --text-dim: #8b8f99;
+    --amber: #e8a23d;
+    --teal: #4fa8a3;
+    --red: #d1495b;
+    --green: #6fae6f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.45;
+  }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+
+  header {
+    padding: 28px 32px 20px;
+    border-bottom: 1px solid var(--panel-line);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  header .sub {
+    color: var(--text-dim);
+    font-size: 13px;
+  }
+  #last-updated {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--teal);
+  }
+
+  main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 28px 32px 80px;
+  }
+
+  .summary-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--panel-line);
+    border: 1px solid var(--panel-line);
+    margin-bottom: 40px;
+  }
+  .summary-cell {
+    background: var(--panel);
+    padding: 18px 20px;
+  }
+  .summary-cell .num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--amber);
+  }
+  .summary-cell .label {
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+
+  section { margin-bottom: 48px; }
+  section h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .desc {
+    font-size: 13px;
+    color: var(--text-dim);
+    margin: 0 0 16px;
+  }
+
+  .row {
+    display: grid;
+    border-bottom: 1px solid var(--panel-line);
+    padding: 13px 0;
+    gap: 4px;
+  }
+  .row:first-of-type { border-top: 1px solid var(--panel-line); }
+
+  .candidates .row {
+    grid-template-columns: 90px 1fr 110px 110px 110px 90px;
+    align-items: center;
+    gap: 12px;
+  }
+  .candidates .head {
+    font-size: 11px;
+    color: var(--text-dim);
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--panel-line);
+  }
+  .symbol { font-weight: 600; }
+  .chain-tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--teal);
+    text-transform: uppercase;
+  }
+  .num-cell { font-family: 'IBM Plex Mono', monospace; font-size: 13px; }
+  .pct-up { color: var(--green); }
+  .pct-down { color: var(--red); }
+  a.chart-link {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--amber);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(232,162,61,0.35);
+  }
+  a.chart-link:hover { border-bottom-color: var(--amber); }
+
+  .report-card {
+    border: 1px solid var(--panel-line);
+    background: var(--panel);
+    padding: 16px 18px;
+    margin-bottom: 10px;
+  }
+  .report-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .risk-badge {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    padding: 3px 9px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .risk-low { background: rgba(111,174,111,0.15); color: var(--green); }
+  .risk-mid { background: rgba(232,162,61,0.15); color: var(--amber); }
+  .risk-high { background: rgba(209,73,91,0.18); color: var(--red); }
+  .risk-unknown { background: rgba(139,143,153,0.15); color: var(--text-dim); }
+  .flags-list {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 13px;
+    color: var(--text-dim);
+  }
+  .flags-list li { margin-bottom: 3px; }
+
+  .activity-row {
+    display: flex;
+    gap: 14px;
+    align-items: baseline;
+    font-size: 13px;
+  }
+  .activity-time {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    min-width: 130px;
+  }
+  .activity-label { font-weight: 600; min-width: 140px; }
+  .activity-summary { color: var(--text-dim); flex: 1; }
+
+  .wallets .row {
+    grid-template-columns: 1fr 90px 90px;
+    align-items: center;
+    gap: 12px;
+  }
+  .wallet-addr {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .performance .row {
+    grid-template-columns: 90px 90px 110px 110px 90px 90px;
+    align-items: center;
+    gap: 12px;
+  }
+  .multiple-badge {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 3px;
+    display: inline-block;
+  }
+  .mult-flat { background: rgba(139,143,153,0.15); color: var(--text-dim); }
+  .mult-up { background: rgba(111,174,111,0.15); color: var(--green); }
+  .mult-big { background: rgba(232,162,61,0.18); color: var(--amber); }
+  .mult-down { background: rgba(209,73,91,0.15); color: var(--red); }
+
+  .empty-state {
+    padding: 32px 0;
+    color: var(--text-dim);
+    font-size: 13px;
+    border-top: 1px solid var(--panel-line);
+    border-bottom: 1px solid var(--panel-line);
+  }
+
+  footer {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 32px 40px;
+    color: var(--text-dim);
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Meme Agent Dashboard</h1>
+    <div class="sub">Wallet tracker · Screener · Deep analysis · Smart money finder</div>
+  </div>
+  <div id="last-updated" class="mono">memuat...</div>
+</header>
+
+<main>
+
+  <div class="summary-strip">
+    <div class="summary-cell"><div class="num" id="count-candidates">–</div><div class="label">Token kandidat</div></div>
+    <div class="summary-cell"><div class="num" id="count-reports">–</div><div class="label">Laporan analisis</div></div>
+    <div class="summary-cell"><div class="num" id="count-activity">–</div><div class="label">Aktivitas wallet</div></div>
+    <div class="summary-cell"><div class="num" id="count-wallets">–</div><div class="label">Smart money ditemukan</div></div>
+  </div>
+
+  <section class="candidates">
+    <h2>Token Kandidat (Screener)</h2>
+    <p class="desc">Token market cap kecil yang lolos filter liquidity, volume & momentum harga.</p>
+    <div class="row head">
+      <div>Symbol</div><div>Chain</div><div>Market Cap</div><div>Liquidity</div><div>Vol 24h</div><div>1h</div>
+    </div>
+    <div id="candidates-list"></div>
+  </section>
+
+  <section class="reports">
+    <h2>Laporan Deep Analysis</h2>
+    <p class="desc">Hasil cek keamanan kontrak, konsentrasi holder, dan sosial media untuk tiap kandidat.</p>
+    <div id="reports-list"></div>
+  </section>
+
+  <section class="activity">
+    <h2>Aktivitas Wallet Terbaru</h2>
+    <p class="desc">Buy/sell terbaru dari wallet yang dipantau (manual maupun hasil auto-discovery).</p>
+    <div id="activity-list"></div>
+  </section>
+
+  <section class="wallets">
+    <h2>Smart Money Ditemukan</h2>
+    <p class="desc">Wallet yang berulang kali beli awal di token-token yang lalu naik signifikan.</p>
+    <div class="row head">
+      <div>Address</div><div>Chain</div><div>Muncul</div>
+    </div>
+    <div id="wallets-list"></div>
+  </section>
+
+  <section class="performance">
+    <h2>Performa Token yang Direkomendasikan</h2>
+    <p class="desc">Dari titik pertama ketemu screener, udah naik/turun berapa kali lipat sampai sekarang.</p>
+    <div id="performance-summary" class="summary-strip" style="margin-bottom:20px;"></div>
+    <div class="row head">
+      <div>Symbol</div><div>Chain</div><div>Entry Mcap</div><div>Mcap Sekarang</div><div>Multiple</div><div>ATH</div>
+    </div>
+    <div id="performance-list"></div>
+  </section>
+
+</main>
+
+<footer>
+  Data di-generate otomatis oleh agent lo (lihat README project). Bukan saran finansial — selalu DYOR.
+</footer>
+
+<script>
+async function loadData() {
+  let data;
+  try {
+    const res = await fetch('./data.json', { cache: 'no-store' });
+    data = await res.json();
+  } catch (e) {
+    document.getElementById('last-updated').textContent = 'Belum ada data — jalankan agent-nya dulu.';
+    return;
+  }
+
+  const candidates = data.screener_candidates || [];
+  const reports = data.analysis_reports || [];
+  const activity = data.wallet_activity || [];
+  const wallets = data.discovered_wallets || [];
+
+  document.getElementById('count-candidates').textContent = candidates.length;
+  document.getElementById('count-reports').textContent = reports.length;
+  document.getElementById('count-activity').textContent = activity.length;
+  document.getElementById('count-wallets').textContent = wallets.length;
+
+  if (data.last_updated) {
+    const d = new Date(data.last_updated);
+    document.getElementById('last-updated').textContent = 'Update terakhir: ' + d.toLocaleString('id-ID');
+  }
+
+  const fmtUsd = (n) => n ? '$' + Number(n).toLocaleString('en-US', {maximumFractionDigits: 0}) : '–';
+  const fmtPct = (n) => {
+    if (n === undefined || n === null) return '–';
+    const cls = n >= 0 ? 'pct-up' : 'pct-down';
+    return `<span class="${cls}">${n >= 0 ? '+' : ''}${n.toFixed(1)}%</span>`;
+  };
+
+  const candList = document.getElementById('candidates-list');
+  if (candidates.length === 0) {
+    candList.innerHTML = '<div class="empty-state">Belum ada token kandidat. Jalankan token_screener.py.</div>';
+  } else {
+    candList.innerHTML = candidates.map(c => `
+      <div class="row">
+        <div class="symbol">${c.symbol || '?'}</div>
+        <div class="chain-tag">${c.chain || ''}</div>
+        <div class="num-cell">${fmtUsd(c.market_cap_usd)}</div>
+        <div class="num-cell">${fmtUsd(c.liquidity_usd)}</div>
+        <div class="num-cell">${fmtUsd(c.volume_24h_usd)}</div>
+        <div class="num-cell">${fmtPct(c.price_change_1h_pct)}</div>
+      </div>
+    `).join('');
+  }
+
+  const repList = document.getElementById('reports-list');
+  if (reports.length === 0) {
+    repList.innerHTML = '<div class="empty-state">Belum ada laporan analisis.</div>';
+  } else {
+    repList.innerHTML = reports.map(r => {
+      let riskClass = 'risk-unknown';
+      if (r.risk_score && r.risk_score.includes('🟢')) riskClass = 'risk-low';
+      else if (r.risk_score && r.risk_score.includes('🟡')) riskClass = 'risk-mid';
+      else if (r.risk_score && (r.risk_score.includes('🟠') || r.risk_score.includes('🔴'))) riskClass = 'risk-high';
+      const flags = (r.security_flags || []).map(f => `<li>${f}</li>`).join('');
+      return `
+        <div class="report-card">
+          <div class="report-top">
+            <div><span class="symbol">${r.symbol || '?'}</span> <span class="chain-tag">${r.chain || ''}</span></div>
+            <div class="risk-badge ${riskClass}">${r.risk_score || 'Tidak diketahui'}</div>
+          </div>
+          <ul class="flags-list">${flags}</ul>
+        </div>
+      `;
+    }).join('');
+  }
+
+  const actList = document.getElementById('activity-list');
+  if (activity.length === 0) {
+    actList.innerHTML = '<div class="empty-state">Belum ada aktivitas wallet tercatat.</div>';
+  } else {
+    actList.innerHTML = activity.map(a => {
+      const time = a._logged_at ? new Date(a._logged_at).toLocaleString('id-ID') : '';
+      return `
+        <div class="row">
+          <div class="activity-row">
+            <span class="activity-time">${time}</span>
+            <span class="activity-label">${a.label || ''}</span>
+            <span class="activity-summary">${a.summary || ''}</span>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  const walList = document.getElementById('wallets-list');
+  if (wallets.length === 0) {
+    walList.innerHTML = '<div class="empty-state">Belum ada smart money ditemukan. Jalankan smart_money_finder.py.</div>';
+  } else {
+    walList.innerHTML = wallets.map(w => `
+      <div class="row">
+        <div class="wallet-addr">${w.address}</div>
+        <div class="chain-tag">${w.chain || ''}</div>
+        <div class="num-cell">${w.appearances || 1}x</div>
+      </div>
+    `).join('');
+  }
+
+  // === Performance Tracking ===
+  const perfActive = data.performance_active || [];
+  const perfArchived = data.performance_archived || [];
+  const perfAll = [...perfActive, ...perfArchived];
+
+  const summaryEl = document.getElementById('performance-summary');
+  if (perfAll.length === 0) {
+    summaryEl.innerHTML = '';
+  } else {
+    const milestones = [2, 5, 10, 20];
+    const total = perfAll.length;
+    summaryEl.innerHTML = `
+      <div class="summary-cell"><div class="num">${total}</div><div class="label">Token dipantau</div></div>
+      ${milestones.map(m => {
+        const count = perfAll.filter(e => (e.ath_multiple || 1) >= m).length;
+        const pct = total > 0 ? ((count / total) * 100).toFixed(0) : 0;
+        return `<div class="summary-cell"><div class="num">${pct}%</div><div class="label">Pernah nyampe ${m}x</div></div>`;
+      }).join('')}
+    `;
+  }
+
+  const multClass = (mult) => {
+    if (mult === undefined || mult === null) return 'mult-flat';
+    if (mult >= 5) return 'mult-big';
+    if (mult >= 1.2) return 'mult-up';
+    if (mult < 0.7) return 'mult-down';
+    return 'mult-flat';
+  };
+
+  const perfList = document.getElementById('performance-list');
+  if (perfAll.length === 0) {
+    perfList.innerHTML = '<div class="empty-state">Belum ada token yang dipantau performanya. Otomatis keisi begitu screener nemu kandidat baru.</div>';
+  } else {
+    perfList.innerHTML = perfAll.slice(0, 30).map(e => {
+      const mult = e.current_multiple !== undefined ? e.current_multiple : e.final_multiple;
+      const athMult = e.ath_multiple || 1;
+      const cls = multClass(mult);
+      const statusNote = e.status_note ? ` title="${e.status_note}"` : '';
+      return `
+        <div class="row"${statusNote}>
+          <div class="symbol">${e.symbol || '?'}${e.status_note ? ' ⚠️' : ''}</div>
+          <div class="chain-tag">${e.chain || ''}</div>
+          <div class="num-cell">${fmtUsd(e.entry_market_cap_usd)}</div>
+          <div class="num-cell">${fmtUsd(e.current_market_cap_usd)}</div>
+          <div><span class="multiple-badge ${cls}">${mult ? mult.toFixed(2) + 'x' : '-'}</span></div>
+          <div class="num-cell">${athMult.toFixed(2)}x</div>
+        </div>
+      `;
+    }).join('');
+  }
+}
+
+loadData();
+</script>
+
+</body>
+</html>

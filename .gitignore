@@ -1,0 +1,11 @@
+# JANGAN upload file ini - isinya token/API key rahasia lo
+.env
+
+# Sampah Python, gak perlu di-upload
+__pycache__/
+*.pyc
+*.pyo
+
+# File OS
+.DS_Store
+Thumbs.db

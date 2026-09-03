@@ -1,0 +1,39 @@
+name: Smart Money Finder
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # jalan tiap 6 jam (lebih jarang karena lebih berat request-nya)
+  workflow_dispatch: {}
+
+jobs:
+  find-smart-money:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Jalankan smart money finder
+        env:
+          SOLANA_RPC_URL: ${{ secrets.SOLANA_RPC_URL }}
+          ETHERSCAN_API_KEY: ${{ secrets.ETHERSCAN_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python smart_money_finder.py
+
+      - name: Simpan discovered_wallets.json, wallet_evidence.json & data dashboard
+        run: |
+          git config user.name "meme-agent-bot"
+          git config user.email "actions@github.com"
+          git add discovered_wallets.json wallet_evidence.json docs/data.json
+          git diff --staged --quiet || git commit -m "chore: update discovered wallets & dashboard [skip ci]"
+          git push
