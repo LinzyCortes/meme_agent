@@ -1,9 +1,174 @@
 {
-  "last_updated": null,
+  "last_updated": "2026-09-03T06:31:27.167562+00:00",
   "wallet_activity": [],
-  "screener_candidates": [],
-  "analysis_reports": [],
+  "screener_candidates": [
+    {
+      "symbol": "COIN",
+      "chain": "solana",
+      "market_cap_usd": 176704.2496,
+      "liquidity_usd": 37833.5139,
+      "volume_24h_usd": 2662041.22876536,
+      "price_change_1h_pct": 9.444,
+      "price_change_24h_pct": 339.53,
+      "dex_url": "https://www.geckoterminal.com/solana/pools/VizuAbyNWPYwfzXCeTKXxHm1rAoeLrfBGY6vZ6eU4zP",
+      "_logged_at": "2026-09-03T06:30:19.774277+00:00"
+    },
+    {
+      "symbol": "BITCAT",
+      "chain": "solana",
+      "market_cap_usd": 489498.82458745,
+      "liquidity_usd": 60619.6238,
+      "volume_24h_usd": 442419.509315966,
+      "price_change_1h_pct": 35.787,
+      "price_change_24h_pct": -73.79,
+      "dex_url": "https://www.geckoterminal.com/solana/pools/3w7NMJECsezNurAb3MbvTiEtVeayhqNXgXXcqiK5qwwj",
+      "_logged_at": "2026-09-03T06:30:19.052799+00:00"
+    },
+    {
+      "symbol": "MONK",
+      "chain": "solana",
+      "market_cap_usd": 106684.382789354,
+      "liquidity_usd": 28182.7414,
+      "volume_24h_usd": 1541186.95405135,
+      "price_change_1h_pct": 35.085,
+      "price_change_24h_pct": -50.015,
+      "dex_url": "https://www.geckoterminal.com/solana/pools/2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
+      "_logged_at": "2026-09-03T06:30:18.382049+00:00"
+    }
+  ],
+  "analysis_reports": [
+    {
+      "symbol": "COIN",
+      "chain": "solana",
+      "token_address": "5jNB5YFamqs3iifyhs34ERox2En3EBc1v5CdgHkmpump",
+      "risk_score": "\ud83d\udfe2 RELATIF RENDAH - tidak ada red flag mencolok (tetap DYOR)",
+      "security_flags": [
+        "Top 10 holder pegang ~27.3% supply"
+      ],
+      "market_cap_usd": 176704.2496,
+      "liquidity_usd": 37833.5139,
+      "socials": {
+        "image_url": "https://cdn.dexscreener.com/cms/images/Y5pyyAnCUZCwenTW?width=800&height=800&quality=95&format=auto",
+        "websites": [
+          "https://cbkswwc.com/"
+        ],
+        "twitter": "https://x.com/CBKSWWCoin",
+        "telegram": "https://t.me/CBKSWWCoin",
+        "discord": null
+      },
+      "dex_url": "https://www.geckoterminal.com/solana/pools/VizuAbyNWPYwfzXCeTKXxHm1rAoeLrfBGY6vZ6eU4zP",
+      "_logged_at": "2026-09-03T06:31:26.732746+00:00"
+    },
+    {
+      "symbol": "BITCAT",
+      "chain": "solana",
+      "token_address": "EBLUKPgx5FvTUBU6bTJi3aR8XVELSBdC5FiodSWQpump",
+      "risk_score": "\ud83d\udfe2 RELATIF RENDAH - tidak ada red flag mencolok (tetap DYOR)",
+      "security_flags": [
+        "Top 10 holder pegang ~68.1% supply"
+      ],
+      "market_cap_usd": 489498.82458745,
+      "liquidity_usd": 60619.6238,
+      "socials": {
+        "image_url": "https://cdn.dexscreener.com/cms/images/q7b1NW1tUtiC5WNR?width=800&height=800&quality=95&format=auto",
+        "websites": [
+          "https://www.bitcatonsol.com/"
+        ],
+        "twitter": "https://x.com/bitcatreal",
+        "telegram": "https://t.me/BitSolanaCatPortal",
+        "discord": null
+      },
+      "dex_url": "https://www.geckoterminal.com/solana/pools/3w7NMJECsezNurAb3MbvTiEtVeayhqNXgXXcqiK5qwwj",
+      "_logged_at": "2026-09-03T06:31:22.712478+00:00"
+    },
+    {
+      "symbol": "MONK",
+      "chain": "solana",
+      "token_address": "JAuN3RKZR9KSKdmBCH83VXGmTvkbobuLrawZ5G3upump",
+      "risk_score": "\ud83d\udfe2 RELATIF RENDAH - tidak ada red flag mencolok (tetap DYOR)",
+      "security_flags": [
+        "Top 10 holder pegang ~18.9% supply"
+      ],
+      "market_cap_usd": 106684.382789354,
+      "liquidity_usd": 28182.7414,
+      "socials": {
+        "image_url": "https://cdn.dexscreener.com/cms/images/JeztykE_Yhl_MxEP?width=800&height=800&quality=95&format=auto",
+        "websites": [
+          "https://www.monkonpump.fun/"
+        ],
+        "twitter": null,
+        "telegram": "https://t.me/MONKONSOL",
+        "discord": null
+      },
+      "dex_url": "https://www.geckoterminal.com/solana/pools/2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
+      "_logged_at": "2026-09-03T06:31:18.712873+00:00"
+    }
+  ],
   "discovered_wallets": [],
-  "performance_active": [],
+  "performance_active": [
+    {
+      "key": "solana:VizuAbyNWPYwfzXCeTKXxHm1rAoeLrfBGY6vZ6eU4zP",
+      "symbol": "COIN",
+      "chain": "solana",
+      "pool_address": "VizuAbyNWPYwfzXCeTKXxHm1rAoeLrfBGY6vZ6eU4zP",
+      "first_seen_at": "2026-09-03T06:30:19.774599+00:00",
+      "entry_price_usd": 0.00017218718755373117,
+      "entry_market_cap_usd": 176704.2496,
+      "entry_liquidity_usd": 37833.5139,
+      "last_checked_at": "2026-09-03T06:31:26.733157+00:00",
+      "current_price_usd": 0.00017616673022289765,
+      "current_market_cap_usd": 176166.7302,
+      "current_liquidity_usd": 37868.8335,
+      "current_multiple": 1.023,
+      "ath_price_usd": 0.00017616673022289765,
+      "ath_multiple": 1.023,
+      "ath_at": "2026-09-03T06:31:26.733157+00:00",
+      "milestones_hit": [],
+      "status_note": null,
+      "dex_url": "https://www.geckoterminal.com/solana/pools/VizuAbyNWPYwfzXCeTKXxHm1rAoeLrfBGY6vZ6eU4zP"
+    },
+    {
+      "key": "solana:2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
+      "symbol": "MONK",
+      "chain": "solana",
+      "pool_address": "2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
+      "first_seen_at": "2026-09-03T06:30:18.382302+00:00",
+      "entry_price_usd": 0.00010762621948017903,
+      "entry_market_cap_usd": 106684.382789354,
+      "entry_liquidity_usd": 28182.7414,
+      "last_checked_at": "2026-09-03T06:31:26.733157+00:00",
+      "current_price_usd": 0.00010805945614185475,
+      "current_market_cap_usd": 108755.181851549,
+      "current_liquidity_usd": 28285.0876,
+      "current_multiple": 1.004,
+      "ath_price_usd": 0.00010805945614185475,
+      "ath_multiple": 1.004,
+      "ath_at": "2026-09-03T06:31:26.733157+00:00",
+      "milestones_hit": [],
+      "status_note": null,
+      "dex_url": "https://www.geckoterminal.com/solana/pools/2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u"
+    },
+    {
+      "key": "solana:3w7NMJECsezNurAb3MbvTiEtVeayhqNXgXXcqiK5qwwj",
+      "symbol": "BITCAT",
+      "chain": "solana",
+      "pool_address": "3w7NMJECsezNurAb3MbvTiEtVeayhqNXgXXcqiK5qwwj",
+      "first_seen_at": "2026-09-03T06:30:19.053096+00:00",
+      "entry_price_usd": 0.0005093068215200444,
+      "entry_market_cap_usd": 489498.82458745,
+      "entry_liquidity_usd": 60619.6238,
+      "last_checked_at": "2026-09-03T06:31:26.733157+00:00",
+      "current_price_usd": 0.0005026214922288784,
+      "current_market_cap_usd": 476195.218146976,
+      "current_liquidity_usd": 59853.1338,
+      "current_multiple": 0.987,
+      "ath_price_usd": 0.0005093068215200444,
+      "ath_multiple": 1.0,
+      "ath_at": "2026-09-03T06:30:19.053096+00:00",
+      "milestones_hit": [],
+      "status_note": null,
+      "dex_url": "https://www.geckoterminal.com/solana/pools/3w7NMJECsezNurAb3MbvTiEtVeayhqNXgXXcqiK5qwwj"
+    }
+  ],
   "performance_archived": []
 }
