@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-09-04T10:51:13.835003+00:00",
+  "last_updated": "2026-09-04T14:28:42.387712+00:00",
   "wallet_activity": [],
   "screener_candidates": [
+    {
+      "symbol": "Lucia",
+      "chain": "solana",
+      "market_cap_usd": 151196.916,
+      "liquidity_usd": 35018.7002,
+      "volume_24h_usd": 2074281.39215149,
+      "price_change_1h_pct": 26.15,
+      "price_change_24h_pct": 250.141,
+      "dex_url": "https://www.geckoterminal.com/solana/pools/AkBXJt2pZoSaTXz4iX38oDtv7ga3Zm3azAna4QebF3CJ",
+      "_logged_at": "2026-09-04T14:27:56.898951+00:00"
+    },
     {
       "symbol": "HeeHaw",
       "chain": "solana",
@@ -103,6 +114,35 @@
     }
   ],
   "analysis_reports": [
+    {
+      "symbol": "Lucia",
+      "chain": "solana",
+      "token_address": "TcnKFgDZc6RhAz83JHHbWeZ5wLc2at8iHK6FhsxkTLh",
+      "risk_score": "\ud83d\udfe2 RELATIF RENDAH - tidak ada red flag mencolok (tetap DYOR)",
+      "security_flags": [
+        "Top 10 holder pegang ~34.3% supply"
+      ],
+      "market_cap_usd": 151196.916,
+      "liquidity_usd": 35018.7002,
+      "socials": {
+        "image_url": "https://cdn.dexscreener.com/cms/images/1URH46Mhokc1L8AK?width=800&height=800&quality=95&format=auto",
+        "websites": [
+          "https://otcdesks.cash/coin/TcnKFgDZc6RhAz83JHHbWeZ5wLc2at8iHK6FhsxkTLh"
+        ],
+        "twitter": "https://x.com/blknoiz06/status/2094826177303138332?s=20",
+        "telegram": null,
+        "discord": null
+      },
+      "technical": {
+        "available": true,
+        "rsi": 54.0,
+        "rsi_interpretation": "RSI 54.0 - netral",
+        "trend": "Momentum jangka pendek netral/sideways",
+        "summary": "RSI 54.0 - netral. Momentum jangka pendek netral/sideways."
+      },
+      "dex_url": "https://www.geckoterminal.com/solana/pools/AkBXJt2pZoSaTXz4iX38oDtv7ga3Zm3azAna4QebF3CJ",
+      "_logged_at": "2026-09-04T14:28:24.637930+00:00"
+    },
     {
       "symbol": "HeeHaw",
       "chain": "solana",
@@ -310,32 +350,6 @@
   "discovered_wallets": [],
   "performance_active": [
     {
-      "key": "solana:2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
-      "symbol": "MONK",
-      "chain": "solana",
-      "pool_address": "2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
-      "first_seen_at": "2026-09-03T06:30:18.382302+00:00",
-      "entry_price_usd": 0.00010762621948017903,
-      "entry_market_cap_usd": 106684.382789354,
-      "entry_liquidity_usd": 28182.7414,
-      "last_checked_at": "2026-09-04T10:26:10.903312+00:00",
-      "current_price_usd": 0.00016502692826467888,
-      "current_market_cap_usd": 163170.113761539,
-      "current_liquidity_usd": 36308.6384,
-      "current_multiple": 1.533,
-      "ath_price_usd": 0.00016502692826467888,
-      "ath_multiple": 1.533,
-      "ath_at": "2026-09-04T10:26:10.903312+00:00",
-      "milestones_hit": [],
-      "status_note": null,
-      "dex_url": "https://www.geckoterminal.com/solana/pools/2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
-      "multiple_history": [
-        0.502,
-        0.755,
-        1.533
-      ]
-    },
-    {
       "key": "solana:6QyYdc6jgeKnfP1FWhiexMYq3JQ3sidSYoubjWUTo3rm",
       "symbol": "HeeHaw",
       "chain": "solana",
@@ -344,14 +358,14 @@
       "entry_price_usd": 0.0005089341297330815,
       "entry_market_cap_usd": 478815.731122006,
       "entry_liquidity_usd": 85623.8442,
-      "last_checked_at": "2026-09-04T10:26:10.903312+00:00",
-      "current_price_usd": 0.0004154061569199895,
-      "current_market_cap_usd": 406711.381530799,
-      "current_liquidity_usd": 79883.2186,
-      "current_multiple": 0.816,
-      "ath_price_usd": 0.0005089341297330815,
-      "ath_multiple": 1.0,
-      "ath_at": "2026-09-04T01:08:31.223445+00:00",
+      "last_checked_at": "2026-09-04T14:28:25.221562+00:00",
+      "current_price_usd": 0.0006592547080503395,
+      "current_market_cap_usd": 647103.923329361,
+      "current_liquidity_usd": 100864.3932,
+      "current_multiple": 1.295,
+      "ath_price_usd": 0.0006592547080503395,
+      "ath_multiple": 1.295,
+      "ath_at": "2026-09-04T14:28:25.221562+00:00",
       "milestones_hit": [],
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/6QyYdc6jgeKnfP1FWhiexMYq3JQ3sidSYoubjWUTo3rm",
@@ -359,33 +373,8 @@
         1.0,
         0.97,
         0.961,
-        0.816
-      ]
-    },
-    {
-      "key": "solana:H2eHQhEfyfcfY6Kobx9EJwdBUmCWZUenxBFG5P6x8hxo",
-      "symbol": "HIERO",
-      "chain": "solana",
-      "pool_address": "H2eHQhEfyfcfY6Kobx9EJwdBUmCWZUenxBFG5P6x8hxo",
-      "first_seen_at": "2026-09-03T23:24:01.254264+00:00",
-      "entry_price_usd": 3.4360525468424974e-05,
-      "entry_market_cap_usd": 34272.7719179468,
-      "entry_liquidity_usd": 15794.503,
-      "last_checked_at": "2026-09-04T10:26:10.903312+00:00",
-      "current_price_usd": 2.1795180009049886e-05,
-      "current_market_cap_usd": 21739.5171690697,
-      "current_liquidity_usd": 12347.8881,
-      "current_multiple": 0.634,
-      "ath_price_usd": 3.4360525468424974e-05,
-      "ath_multiple": 1.0,
-      "ath_at": "2026-09-03T23:24:01.254264+00:00",
-      "milestones_hit": [],
-      "status_note": null,
-      "dex_url": "https://www.geckoterminal.com/solana/pools/H2eHQhEfyfcfY6Kobx9EJwdBUmCWZUenxBFG5P6x8hxo",
-      "multiple_history": [
-        0.885,
-        0.912,
-        0.634
+        0.816,
+        1.295
       ]
     },
     {
@@ -397,73 +386,101 @@
       "entry_price_usd": 0.00019565356433250402,
       "entry_market_cap_usd": 193222.3432291,
       "entry_liquidity_usd": 55707.9409,
-      "last_checked_at": "2026-09-04T10:26:10.903312+00:00",
-      "current_price_usd": 0.00012032957392403019,
-      "current_market_cap_usd": 118833.116436046,
-      "current_liquidity_usd": 44507.6543,
-      "current_multiple": 0.615,
-      "ath_price_usd": 0.00019960594391648615,
-      "ath_multiple": 1.02,
-      "ath_at": "2026-09-03T18:38:14.111904+00:00",
+      "last_checked_at": "2026-09-04T14:28:25.221562+00:00",
+      "current_price_usd": 0.00023953357588845273,
+      "current_market_cap_usd": 236557.095103447,
+      "current_liquidity_usd": 62938.9528,
+      "current_multiple": 1.224,
+      "ath_price_usd": 0.00023953357588845273,
+      "ath_multiple": 1.224,
+      "ath_at": "2026-09-04T14:28:25.221562+00:00",
       "milestones_hit": [],
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/3BJjyr6E33WqjdnjoqSkbPLFYNHEFSXyZxVJV4wSYA3U",
       "multiple_history": [
         0.747,
         0.731,
-        0.615
+        0.615,
+        1.224
       ]
     },
     {
-      "key": "solana:DKj8pa8oYRntMP3UN7p4JWt9PMbabcgc9MgyboTZ8Jek",
-      "symbol": "BEN",
+      "key": "solana:AkBXJt2pZoSaTXz4iX38oDtv7ga3Zm3azAna4QebF3CJ",
+      "symbol": "Lucia",
       "chain": "solana",
-      "pool_address": "DKj8pa8oYRntMP3UN7p4JWt9PMbabcgc9MgyboTZ8Jek",
-      "first_seen_at": "2026-09-03T18:37:33.102476+00:00",
-      "entry_price_usd": 0.0004015982975686981,
-      "entry_market_cap_usd": 386620.615924216,
-      "entry_liquidity_usd": 67711.8931,
-      "last_checked_at": "2026-09-04T10:26:10.903312+00:00",
-      "current_price_usd": 0.00015331559269209753,
-      "current_market_cap_usd": 150306.407937613,
-      "current_liquidity_usd": 41881.5863,
-      "current_multiple": 0.382,
-      "ath_price_usd": 0.0004074599874214209,
-      "ath_multiple": 1.015,
-      "ath_at": "2026-09-03T18:38:14.111904+00:00",
+      "pool_address": "AkBXJt2pZoSaTXz4iX38oDtv7ga3Zm3azAna4QebF3CJ",
+      "first_seen_at": "2026-09-04T14:27:56.899873+00:00",
+      "entry_price_usd": 0.00014989874717184139,
+      "entry_market_cap_usd": 151196.916,
+      "entry_liquidity_usd": 35018.7002,
+      "last_checked_at": "2026-09-04T14:28:25.221562+00:00",
+      "current_price_usd": 0.0001498617188740244,
+      "current_market_cap_usd": 149821.8886,
+      "current_liquidity_usd": 34717.5953,
+      "current_multiple": 1.0,
+      "ath_price_usd": 0.00014989874717184139,
+      "ath_multiple": 1.0,
+      "ath_at": "2026-09-04T14:27:56.899873+00:00",
       "milestones_hit": [],
       "status_note": null,
-      "dex_url": "https://www.geckoterminal.com/solana/pools/DKj8pa8oYRntMP3UN7p4JWt9PMbabcgc9MgyboTZ8Jek",
+      "dex_url": "https://www.geckoterminal.com/solana/pools/AkBXJt2pZoSaTXz4iX38oDtv7ga3Zm3azAna4QebF3CJ",
       "multiple_history": [
-        0.491,
-        0.465,
-        0.382
+        1.0,
+        1.0
       ]
     },
     {
-      "key": "solana:VizuAbyNWPYwfzXCeTKXxHm1rAoeLrfBGY6vZ6eU4zP",
-      "symbol": "COIN",
+      "key": "solana:2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
+      "symbol": "MONK",
       "chain": "solana",
-      "pool_address": "VizuAbyNWPYwfzXCeTKXxHm1rAoeLrfBGY6vZ6eU4zP",
-      "first_seen_at": "2026-09-03T06:30:19.774599+00:00",
-      "entry_price_usd": 0.00017218718755373117,
-      "entry_market_cap_usd": 176704.2496,
-      "entry_liquidity_usd": 37833.5139,
-      "last_checked_at": "2026-09-04T10:26:10.903312+00:00",
-      "current_price_usd": 5.6954291762548194e-05,
-      "current_market_cap_usd": 56954.29176,
-      "current_liquidity_usd": 21950.0417,
-      "current_multiple": 0.331,
-      "ath_price_usd": 0.00024363645347043154,
-      "ath_multiple": 1.415,
-      "ath_at": "2026-09-03T18:38:14.111904+00:00",
+      "pool_address": "2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
+      "first_seen_at": "2026-09-03T06:30:18.382302+00:00",
+      "entry_price_usd": 0.00010762621948017903,
+      "entry_market_cap_usd": 106684.382789354,
+      "entry_liquidity_usd": 28182.7414,
+      "last_checked_at": "2026-09-04T14:28:25.221562+00:00",
+      "current_price_usd": 7.767583422762622e-05,
+      "current_market_cap_usd": 77895.6011397722,
+      "current_liquidity_usd": 24075.6331,
+      "current_multiple": 0.722,
+      "ath_price_usd": 0.00016502692826467888,
+      "ath_multiple": 1.533,
+      "ath_at": "2026-09-04T10:26:10.903312+00:00",
       "milestones_hit": [],
       "status_note": null,
-      "dex_url": "https://www.geckoterminal.com/solana/pools/VizuAbyNWPYwfzXCeTKXxHm1rAoeLrfBGY6vZ6eU4zP",
+      "dex_url": "https://www.geckoterminal.com/solana/pools/2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
       "multiple_history": [
-        0.57,
-        0.647,
-        0.331
+        0.502,
+        0.755,
+        1.533,
+        0.722
+      ]
+    },
+    {
+      "key": "solana:H2eHQhEfyfcfY6Kobx9EJwdBUmCWZUenxBFG5P6x8hxo",
+      "symbol": "HIERO",
+      "chain": "solana",
+      "pool_address": "H2eHQhEfyfcfY6Kobx9EJwdBUmCWZUenxBFG5P6x8hxo",
+      "first_seen_at": "2026-09-03T23:24:01.254264+00:00",
+      "entry_price_usd": 3.4360525468424974e-05,
+      "entry_market_cap_usd": 34272.7719179468,
+      "entry_liquidity_usd": 15794.503,
+      "last_checked_at": "2026-09-04T14:28:25.221562+00:00",
+      "current_price_usd": 2.085700068623044e-05,
+      "current_market_cap_usd": 20803.7338708612,
+      "current_liquidity_usd": 11848.8809,
+      "current_multiple": 0.607,
+      "ath_price_usd": 3.4360525468424974e-05,
+      "ath_multiple": 1.0,
+      "ath_at": "2026-09-03T23:24:01.254264+00:00",
+      "milestones_hit": [],
+      "status_note": null,
+      "dex_url": "https://www.geckoterminal.com/solana/pools/H2eHQhEfyfcfY6Kobx9EJwdBUmCWZUenxBFG5P6x8hxo",
+      "multiple_history": [
+        0.885,
+        0.912,
+        0.634,
+        0.607
       ]
     },
     {
@@ -475,11 +492,11 @@
       "entry_price_usd": 0.0005093068215200444,
       "entry_market_cap_usd": 489498.82458745,
       "entry_liquidity_usd": 60619.6238,
-      "last_checked_at": "2026-09-04T10:26:10.903312+00:00",
-      "current_price_usd": 0.00016189079413907106,
-      "current_market_cap_usd": 153558.513493383,
-      "current_liquidity_usd": 33663.7453,
-      "current_multiple": 0.318,
+      "last_checked_at": "2026-09-04T14:28:25.221562+00:00",
+      "current_price_usd": 0.00015919949288314492,
+      "current_market_cap_usd": 151005.729600189,
+      "current_liquidity_usd": 32591.503,
+      "current_multiple": 0.313,
       "ath_price_usd": 0.0005093068215200444,
       "ath_multiple": 1.0,
       "ath_at": "2026-09-03T06:30:19.053096+00:00",
@@ -489,7 +506,8 @@
       "multiple_history": [
         0.164,
         0.175,
-        0.318
+        0.318,
+        0.313
       ]
     },
     {
@@ -501,11 +519,11 @@
       "entry_price_usd": 3.340067133137012e-05,
       "entry_market_cap_usd": 33091.1007508648,
       "entry_liquidity_usd": 14948.9328,
-      "last_checked_at": "2026-09-04T10:26:10.903312+00:00",
-      "current_price_usd": 1.052715930876958e-05,
-      "current_market_cap_usd": 10429.5894506386,
-      "current_liquidity_usd": 7610.3828,
-      "current_multiple": 0.315,
+      "last_checked_at": "2026-09-04T14:28:25.221562+00:00",
+      "current_price_usd": 9.45434878164432e-06,
+      "current_market_cap_usd": 9477.1061735913,
+      "current_liquidity_usd": 6981.794,
+      "current_multiple": 0.283,
       "ath_price_usd": 3.340067133137012e-05,
       "ath_multiple": 1.0,
       "ath_at": "2026-09-03T15:10:33.535013+00:00",
@@ -515,7 +533,62 @@
       "multiple_history": [
         0.352,
         0.313,
-        0.315
+        0.315,
+        0.283
+      ]
+    },
+    {
+      "key": "solana:DKj8pa8oYRntMP3UN7p4JWt9PMbabcgc9MgyboTZ8Jek",
+      "symbol": "BEN",
+      "chain": "solana",
+      "pool_address": "DKj8pa8oYRntMP3UN7p4JWt9PMbabcgc9MgyboTZ8Jek",
+      "first_seen_at": "2026-09-03T18:37:33.102476+00:00",
+      "entry_price_usd": 0.0004015982975686981,
+      "entry_market_cap_usd": 386620.615924216,
+      "entry_liquidity_usd": 67711.8931,
+      "last_checked_at": "2026-09-04T14:28:25.221562+00:00",
+      "current_price_usd": 0.00010669627911237569,
+      "current_market_cap_usd": 104815.71933301,
+      "current_liquidity_usd": 34917.1528,
+      "current_multiple": 0.266,
+      "ath_price_usd": 0.0004074599874214209,
+      "ath_multiple": 1.015,
+      "ath_at": "2026-09-03T18:38:14.111904+00:00",
+      "milestones_hit": [],
+      "status_note": null,
+      "dex_url": "https://www.geckoterminal.com/solana/pools/DKj8pa8oYRntMP3UN7p4JWt9PMbabcgc9MgyboTZ8Jek",
+      "multiple_history": [
+        0.491,
+        0.465,
+        0.382,
+        0.266
+      ]
+    },
+    {
+      "key": "solana:VizuAbyNWPYwfzXCeTKXxHm1rAoeLrfBGY6vZ6eU4zP",
+      "symbol": "COIN",
+      "chain": "solana",
+      "pool_address": "VizuAbyNWPYwfzXCeTKXxHm1rAoeLrfBGY6vZ6eU4zP",
+      "first_seen_at": "2026-09-03T06:30:19.774599+00:00",
+      "entry_price_usd": 0.00017218718755373117,
+      "entry_market_cap_usd": 176704.2496,
+      "entry_liquidity_usd": 37833.5139,
+      "last_checked_at": "2026-09-04T14:28:25.221562+00:00",
+      "current_price_usd": 3.175670304219198e-05,
+      "current_market_cap_usd": 31756.70304,
+      "current_liquidity_usd": 15865.5389,
+      "current_multiple": 0.184,
+      "ath_price_usd": 0.00024363645347043154,
+      "ath_multiple": 1.415,
+      "ath_at": "2026-09-03T18:38:14.111904+00:00",
+      "milestones_hit": [],
+      "status_note": null,
+      "dex_url": "https://www.geckoterminal.com/solana/pools/VizuAbyNWPYwfzXCeTKXxHm1rAoeLrfBGY6vZ6eU4zP",
+      "multiple_history": [
+        0.57,
+        0.647,
+        0.331,
+        0.184
       ]
     },
     {
@@ -527,11 +600,11 @@
       "entry_price_usd": 0.00021018842982674862,
       "entry_market_cap_usd": 205323.90138688,
       "entry_liquidity_usd": 48723.1164,
-      "last_checked_at": "2026-09-04T10:26:10.903312+00:00",
-      "current_price_usd": 4.99413305659619e-05,
-      "current_market_cap_usd": 48833.7562107399,
-      "current_liquidity_usd": 25222.3906,
-      "current_multiple": 0.238,
+      "last_checked_at": "2026-09-04T14:28:25.221562+00:00",
+      "current_price_usd": 8.071318381153523e-06,
+      "current_market_cap_usd": 8000.5556102727,
+      "current_liquidity_usd": 8895.4667,
+      "current_multiple": 0.038,
       "ath_price_usd": 0.00021708889698785044,
       "ath_multiple": 1.033,
       "ath_at": "2026-09-03T23:24:15.190896+00:00",
@@ -541,7 +614,8 @@
       "multiple_history": [
         0.84,
         0.401,
-        0.238
+        0.238,
+        0.038
       ]
     }
   ],
