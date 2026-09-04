@@ -232,6 +232,25 @@ def save_discovered(data: dict):
         json.dump(data, f, indent=2)
 
 
+def check_smart_money_overlap(chain: str, pool_address: str) -> list:
+    """
+    Cek apakah token ini PERNAH jadi bukti pembelian awal buat wallet smart
+    money yang udah terkonfirmasi. Dipakai token_screener.py buat "sinyal
+    gabungan" - kalau screener DAN smart money tracker sama-sama nunjuk ke
+    token yang sama, itu keyakinan yang jauh lebih kuat daripada sinyal
+    tunggal. Return: list address wallet yang overlap (kosong kalau gak ada).
+    """
+    discovered = load_discovered()
+    matches = []
+    for wallet, info in discovered.items():
+        if info.get("chain") != chain:
+            continue
+        evidence = info.get("evidence_tokens", [])
+        if any(pool_address in token_id for token_id in evidence):
+            matches.append(wallet)
+    return matches
+
+
 def load_checked_pools() -> dict:
     """Muat catatan 'pool mana aja yang udah dicek, kapan' - biar gak ngulang-ngulang token yang sama."""
     if not os.path.exists(CHECKED_POOLS_FILE_PATH):

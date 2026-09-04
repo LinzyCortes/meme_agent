@@ -95,6 +95,7 @@ def add_analysis_report(result: dict):
         "market_cap_usd": pool.get("market_cap_usd"),
         "liquidity_usd": pool.get("liquidity_usd"),
         "socials": result.get("socials"),
+        "technical": result.get("technical"),
         "dex_url": pool.get("dex_url"),
     })
 

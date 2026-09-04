@@ -15,6 +15,7 @@ import geckoterminal_api as gt
 import state
 import dashboard_data
 import performance_tracker
+import smart_money_finder
 from config import SCREENER_CHAINS, SCREENER_FILTERS
 from notifier import send_telegram
 
@@ -64,17 +65,51 @@ def scan_chain(chain: str) -> list:
     return candidates
 
 
-def format_candidate_message(pool: dict) -> str:
+def format_combined_message(pool: dict, result: dict) -> str:
+    """
+    1 pesan gabungan berisi info kandidat + hasil deep analysis sekaligus -
+    dulu ini 2 pesan terpisah, digabung jadi 1 biar lebih ringkas TAPI tetap
+    dikirim REAL-TIME (bukan diantri harian) karena timing itu penting banget
+    buat meme coin - telat beberapa jam aja bisa bikin sinyalnya gak relevan lagi.
+    """
+    flags_text = "\n".join(f"• {f}" for f in result["security_flags"][:4])
+    socials = result.get("socials", {})
+    social_bits = []
+    if socials.get("twitter"):
+        social_bits.append(f"[Twitter]({socials['twitter']})")
+    if socials.get("telegram"):
+        social_bits.append(f"[Telegram]({socials['telegram']})")
+    social_line = " | ".join(social_bits) if social_bits else "Sosial media tidak ditemukan"
+
+    technical = result.get("technical", {})
+    tech_line = technical.get("summary", "")
+
     return (
-        f"🚀 *Token Kandidat Ditemukan* — {pool['base_token_symbol']} ({pool['chain'].title()})\n"
-        f"Market Cap: ${pool['market_cap_usd']:,.0f}\n"
-        f"Liquidity: ${pool['liquidity_usd']:,.0f}\n"
-        f"Volume 24h: ${pool['volume_24h_usd']:,.0f}\n"
-        f"Perubahan harga 1h: {pool['price_change_1h_pct']:.1f}% | 24h: {pool['price_change_24h_pct']:.1f}%\n"
-        f"Transaksi 24h: {pool['txns_24h']}\n"
+        f"🚀 *{pool['base_token_symbol']}* ({pool['chain'].title()}) — Kandidat Baru\n\n"
+        f"Market Cap: ${pool['market_cap_usd']:,.0f} | Liquidity: ${pool['liquidity_usd']:,.0f}\n"
+        f"Volume 24h: ${pool['volume_24h_usd']:,.0f} | 1h: {pool['price_change_1h_pct']:.1f}% | 24h: {pool['price_change_24h_pct']:.1f}%\n\n"
+        f"*Risiko:* {result['risk_score']}\n"
+        f"{flags_text}\n\n"
+        f"*Teknikal:* {tech_line}\n\n"
+        f"*Sosial:* {social_line}\n"
+        f"Pool: `{pool['pool_address']}`\n"
+        f"Chart: {pool['dex_url']}\n\n"
+        f"⚠️ _Bukan saran finansial. Selalu DYOR._"
+    )
+
+
+def format_strong_signal_message(pool: dict, overlap_wallets: list) -> str:
+    wallet_preview = overlap_wallets[0][:10] + "..."
+    extra = f" (+{len(overlap_wallets) - 1} wallet lainnya)" if len(overlap_wallets) > 1 else ""
+    return (
+        f"🔥 *SINYAL KUAT* — {pool['base_token_symbol']} ({pool['chain'].title()})\n\n"
+        f"Token ini lolos filter screener DAN pernah dibeli awal oleh wallet "
+        f"smart money yang udah terkonfirmasi ({wallet_preview}{extra}).\n"
+        f"Ini keyakinan lebih kuat daripada sinyal tunggal - 2 sistem independen sama-sama nunjuk ke token ini.\n\n"
+        f"Market Cap: ${pool['market_cap_usd']:,.0f} | Liquidity: ${pool['liquidity_usd']:,.0f}\n"
         f"Pool address: `{pool['pool_address']}`\n"
         f"Chart: {pool['dex_url']}\n\n"
-        f"_Lagi jalanin deep analysis..._"
+        f"⚠️ _Tetap DYOR - ini sinyal tambahan, bukan jaminan._"
     )
 
 
@@ -94,11 +129,16 @@ def run_once(trigger_deep_analysis: bool = True) -> list:
                 continue
 
             print(f"[FOUND] {pool['base_token_symbol']} di {chain} lolos filter screener")
-            send_telegram(format_candidate_message(pool))
             dashboard_data.add_screener_candidate(pool)
             performance_tracker.register_candidate(pool)  # mulai pantau performanya dari sekarang
             state.mark_token_seen(token_key)
             all_candidates.append(pool)
+
+            # SINYAL GABUNGAN: dikirim TERPISAH & real-time, di atas pesan kandidat
+            # biasa - ini sinyal langka & kuat, pantas dapet perhatian ekstra
+            overlap = smart_money_finder.check_smart_money_overlap(chain, pool["pool_address"])
+            if overlap:
+                send_telegram(format_strong_signal_message(pool, overlap))
 
     if trigger_deep_analysis and all_candidates:
         import time
@@ -107,11 +147,16 @@ def run_once(trigger_deep_analysis: bool = True) -> list:
             if i > 0:
                 time.sleep(3)  # jeda antar analisis biar gak nembak GeckoTerminal beruntun & kena rate limit
             try:
-                deep_analysis.analyze_and_notify(pool)
+                result = deep_analysis.analyze(pool)
+                dashboard_data.add_analysis_report(result)
+                # KANDIDAT TOKEN dikirim REAL-TIME (1 pesan gabungan, bukan diantri
+                # harian) - timing penting banget buat meme coin, telat = gak relevan lagi.
+                # Yang diantri harian cuma aktivitas wallet rutin (lihat wallet_tracker.py).
+                send_telegram(format_combined_message(pool, result))
             except Exception as e:
                 print(f"[ERROR] Deep analysis gagal untuk {pool['base_token_symbol']}: {e}")
 
-    print(f"[INFO] Screener selesai. Total kandidat baru: {len(all_candidates)}")
+    print(f"[INFO] Screener selesai. Total kandidat baru: {len(all_candidates)} (notif real-time)")
     return all_candidates
 
 

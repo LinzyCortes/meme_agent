@@ -1,12 +1,16 @@
 # Meme Token AI Agent (Gratis)
 
-Sistem 5 agent buat riset meme coin:
+Sistem 5 agent + 2 fitur tambahan buat riset meme coin:
 
 1. **Smart Money Finder** (`smart_money_finder.py`) — **otomatis nemuin wallet whale/smart money sendiri**, tanpa lo perlu cari & isi manual. Caranya: cari token yang lagi "menang" (harga naik signifikan), telusuri siapa yang beli paling awal, lalu wallet yang berulang kali beli awal di beberapa token pemenang berbeda ditandai sebagai kandidat smart money.
-2. **Wallet Tracker** (`wallet_tracker.py`) — pantau wallet (baik yang lo isi manual, maupun hasil temuan otomatis Agent 1), notif kalau mereka buy/sell token.
+2. **Wallet Tracker** (`wallet_tracker.py`) — pantau wallet (baik yang lo isi manual, maupun hasil temuan otomatis Agent 1), catat kalau mereka buy/sell token.
 3. **Token Screener** (`token_screener.py`) — scan token baru/trending yang market cap-nya masih kecil tapi punya sinyal bagus.
-4. **Deep Analysis** (`deep_analysis.py`) — begitu screener nemu kandidat, otomatis dianalisa: cek kontrak, konsentrasi holder, liquidity lock, dan sosial media project-nya.
-5. **Performance Tracker** (`performance_tracker.py`) — nyatet harga/mcap tiap token PAS PERTAMA KALI ditemuin, terus ngecek ulang berkala buat liat udah naik/turun berapa kali lipat. Ini yang jawab pertanyaan "apakah rekomendasi sistem ini beneran valid" dengan data konkret, bukan tebak-tebakan.
+4. **Deep Analysis** (`deep_analysis.py`) — begitu screener nemu kandidat, otomatis dianalisa: cek kontrak, konsentrasi holder, liquidity lock, sosial media, DAN **analisis teknikal** (RSI, moving average) dari data candle.
+5. **Performance Tracker** (`performance_tracker.py`) — nyatet harga/mcap tiap token PAS PERTAMA KALI ditemuin, terus ngecek ulang berkala buat liat udah naik/turun berapa kali lipat.
+
+**Fitur tambahan:**
+- **Sinyal Gabungan** — kalau 1 token lolos filter screener DAN pernah dibeli awal sama wallet smart money yang udah terkonfirmasi, sistem kirim alert khusus "🔥 SINYAL KUAT" real-time (dua sinyal independen yang sama-sama nunjuk ke token yang sama = keyakinan lebih tinggi).
+- **Dashboard Web** — ada search box, sparkline chart mini buat tren performa tiap token, dan tampilan analisis teknikal di tiap laporan.
 
 Semua notifikasi dikirim ke **Telegram**, dan semua API yang dipakai **gratis**.
 
@@ -88,6 +92,19 @@ python deep_analysis.py solana <pool_address>   # analisa manual 1 token
 python performance_tracker.py    # agent 5: update performa semua token yang lagi dipantau + tampilin ringkasan statistik
 ```
 
+## Notifikasi Telegram — Semua Real-time
+
+Semua notifikasi dikirim **real-time**, gak ada yang ditunda/diringkas harian. Ini keputusan sadar: tujuan sistem ini adalah sinyal buat lo ambil keputusan (termasuk copy-trade manual dari wallet smart money) - begitu ada delay, sinyalnya basi. Mendingan dapet notif rada lebih sering, daripada dapet info penting tapi udah kelewat momennya.
+
+Yang lo terima real-time:
+- Token kandidat baru (1 pesan gabungan: info + hasil analisis + teknikal)
+- Aktivitas wallet yang dipantau (buy/sell dari wallet manual maupun hasil auto-discovery smart money)
+- Smart money baru terkonfirmasi
+- Token nembus milestone (2x, 5x, 10x, dst)
+- Sinyal gabungan (screener + smart money sama-sama nunjuk ke token yang sama)
+
+Kalau ke depannya kerasa notifnya kebanyakan, solusinya BUKAN nunda ke ringkasan harian (itu ngerusak tujuan utamanya), tapi lebih ke: perketat filter di `config.py` (misal naikin `min_price_change_1h_pct` di `SCREENER_FILTERS`, atau kurangin jumlah wallet yang dipantau) biar yang lolos cuma yang bener-bener berkualitas.
+
 ## Performance Tracker — cara baca hasilnya
 
 Tiap kali `python performance_tracker.py` dijalanin, di akhir bakal muncul ringkasan kayak gini:
@@ -148,9 +165,10 @@ meme_agent/
 ├── evm_wallet_api.py        # tracking wallet EVM
 ├── smart_money_finder.py    # AGENT 4 - auto-discover wallet smart money
 ├── wallet_tracker.py        # AGENT 1
-├── token_screener.py        # AGENT 2
-├── deep_analysis.py         # AGENT 3
+├── token_screener.py        # AGENT 2 - juga cek sinyal gabungan smart money
+├── deep_analysis.py         # AGENT 3 - + analisis teknikal (RSI, MA)
 ├── performance_tracker.py   # AGENT 5 - pantau performa token dari waktu ke waktu
+├── technical_analysis.py    # RSI & moving average dari data candle
 ├── main.py                  # jalankan semua
 ├── discovered_wallets.json  # hasil temuan smart_money_finder.py (auto-generated)
 ├── tracked_performance.json # data performa semua token yang lagi/pernah dipantau (auto-generated)
@@ -158,7 +176,7 @@ meme_agent/
 │   ├── index.html            # dashboard web (di-serve GitHub Pages)
 │   └── data.json             # data buat dashboard (auto-generated tiap agent jalan)
 └── .github/workflows/
-    ├── run_agent.yml            # jalan tiap 15 menit
+    ├── run_agent.yml            # jalan tiap 15 menit (wallet tracker + screener + deep analysis + performance)
     └── smart_money_finder.yml   # jalan tiap 6 jam
 ```
 

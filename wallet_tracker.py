@@ -1,7 +1,13 @@
 """
 AGENT 1: WALLET TRACKER
-Memantau daftar wallet di config.WATCHED_WALLETS. Kalau ada wallet yang
-buy/sell token (terutama token baru/kecil), kirim notifikasi Telegram.
+Memantau daftar wallet di config.WATCHED_WALLETS + hasil auto-discovery smart
+money. Kalau ada wallet yang buy/sell token, kirim notifikasi Telegram REAL-TIME.
+
+PENTING soal timing: ini dirancang buat sinyal "copy trade" - lo mau tau
+begitu smart money/whale beli sesuatu, SEBELUM token itu keburu pump, biar
+masih sempet ikutan (manual, sistem ini gak auto-trading). Karena itu, semua
+notif di sini WAJIB real-time, TIDAK boleh diringkas/ditunda - telat beberapa
+jam aja bikin sinyalnya percuma buat tujuan copy trade.
 
 Cara pakai:
     python wallet_tracker.py
@@ -87,6 +93,7 @@ def check_solana_wallet(wallet: dict):
                 f"{change['direction']} {abs(change['delta']):.6f} of `{change['mint'][:8]}...`"
             )
         sol_line = f"\nPerubahan SOL: {sol_change:+.4f} SOL" if abs(sol_change) > 0.001 else ""
+        summary_text = " | ".join(lines) + sol_line
 
         message = (
             f"🔔 *Wallet Activity* — {label} (Solana)\n"
@@ -95,10 +102,10 @@ def check_solana_wallet(wallet: dict):
             + sol_line
             + f"\nTx: https://solscan.io/tx/{tx_id}"
         )
-        send_telegram(message)
+        send_telegram(message)  # REAL-TIME - sinyal copy trade, gak boleh telat
         dashboard_data.add_wallet_activity(
             label=label, chain="solana", address=address,
-            summary=" | ".join(lines) + sol_line,
+            summary=summary_text,
             tx_url=f"https://solscan.io/tx/{tx_id}",
         )
         state.mark_tx_seen(tx_id)
@@ -120,6 +127,7 @@ def check_evm_wallet(wallet: dict):
             "%Y-%m-%d %H:%M UTC"
         )
         explorer = "https://basescan.org" if chain == "base" else "https://etherscan.io"
+        summary_text = f"{parsed['direction']} {parsed['amount']:.4f} {parsed['token_symbol']} ({ts})"
 
         message = (
             f"🔔 *Wallet Activity* — {label} ({chain.title()})\n"
@@ -128,10 +136,10 @@ def check_evm_wallet(wallet: dict):
             f"Waktu: {ts}\n"
             f"Tx: {explorer}/tx/{tx_id}"
         )
-        send_telegram(message)
+        send_telegram(message)  # REAL-TIME - sinyal copy trade, gak boleh telat
         dashboard_data.add_wallet_activity(
             label=label, chain=chain, address=address,
-            summary=f"{parsed['direction']} {parsed['amount']:.4f} {parsed['token_symbol']}",
+            summary=summary_text,
             tx_url=f"{explorer}/tx/{tx_id}",
         )
         state.mark_tx_seen(tx_id)

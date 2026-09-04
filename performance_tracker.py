@@ -83,6 +83,7 @@ def register_candidate(pool: dict):
         "milestones_hit": [],
         "status_note": None,
         "dex_url": pool.get("dex_url"),
+        "multiple_history": [1.0],  # dipakai buat sparkline chart di dashboard, maks 30 titik terakhir
     }
     _save(data)
     print(f"[TRACK] Mulai pantau performa {pool.get('base_token_symbol')} ({pool.get('chain')}) "
@@ -150,6 +151,11 @@ def update_all():
                 entry_price = entry.get("entry_price_usd") or 0
                 current_multiple = (pool["price_usd"] / entry_price) if entry_price > 0 else 0
                 entry["current_multiple"] = round(current_multiple, 3)
+
+                # simpen ke history buat sparkline chart di dashboard, maks 30 titik terakhir
+                history = entry.get("multiple_history", [])
+                history.append(round(current_multiple, 3))
+                entry["multiple_history"] = history[-30:]
 
                 if current_multiple > entry.get("ath_multiple", 1.0):
                     entry["ath_multiple"] = round(current_multiple, 3)

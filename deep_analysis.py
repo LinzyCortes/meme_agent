@@ -16,6 +16,7 @@ import sys
 import geckoterminal_api as gt
 import dexscreener_api as ds
 import goplus_api
+import technical_analysis as ta
 import dashboard_data
 from notifier import send_telegram
 
@@ -90,12 +91,17 @@ def analyze(pool: dict) -> dict:
 
     risk_score = compute_risk_score(sec_summary["flags"]) if sec_summary["available"] else "⚪ TIDAK DIKETAHUI"
 
+    # Analisis teknikal (RSI + moving average) - pelengkap fundamental di atas
+    ohlcv = gt.get_ohlcv(chain, pool["pool_address"], timeframe="hour", limit=50)
+    technical = ta.analyze_technical(ohlcv)
+
     return {
         "pool": pool,
         "token_address": token_address,
         "security_flags": sec_summary["flags"],
         "risk_score": risk_score,
         "socials": socials,
+        "technical": technical,
     }
 
 
@@ -119,6 +125,7 @@ def format_report(result: dict) -> str:
         f"Volume 24h: ${pool['volume_24h_usd']:,.0f} | Txns 24h: {pool['txns_24h']}\n\n"
         f"*Estimasi Risiko:* {result['risk_score']}\n"
         f"*Temuan keamanan:*\n{flags_text}\n\n"
+        f"*Analisis Teknikal:*\n{result['technical']['summary']}\n\n"
         f"*Sosial:*\n{social_text}\n\n"
         f"Chart: {pool['dex_url']}\n\n"
         f"⚠️ _Ini bukan saran finansial. Selalu DYOR (Do Your Own Research) sebelum ambil keputusan._"

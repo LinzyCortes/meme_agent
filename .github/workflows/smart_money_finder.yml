@@ -34,6 +34,8 @@ jobs:
         run: |
           git config user.name "meme-agent-bot"
           git config user.email "actions@github.com"
-          git add discovered_wallets.json wallet_evidence.json docs/data.json
-          git diff --staged --quiet || git commit -m "chore: update discovered wallets & dashboard [skip ci]"
+          git add discovered_wallets.json wallet_evidence.json checked_pools.json docs/data.json
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: update discovered wallets & dashboard [skip ci]"
+          git pull --rebase origin main
           git push

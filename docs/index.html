@@ -53,6 +53,25 @@
     color: var(--teal);
   }
 
+  #search-box {
+    margin: 0 auto 32px;
+    max-width: 1080px;
+    padding: 0 32px;
+  }
+  #search-input {
+    width: 100%;
+    background: var(--panel);
+    border: 1px solid var(--panel-line);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    padding: 11px 14px;
+    border-radius: 4px;
+    outline: none;
+  }
+  #search-input:focus { border-color: var(--teal); }
+  #search-input::placeholder { color: var(--text-dim); }
+
   main {
     max-width: 1080px;
     margin: 0 auto;
@@ -197,9 +216,9 @@
   }
 
   .performance .row {
-    grid-template-columns: 90px 90px 110px 110px 90px 90px;
+    grid-template-columns: 80px 80px 100px 100px 80px 70px 70px;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
   }
   .multiple-badge {
     font-family: 'IBM Plex Mono', monospace;
@@ -213,6 +232,22 @@
   .mult-up { background: rgba(111,174,111,0.15); color: var(--green); }
   .mult-big { background: rgba(232,162,61,0.18); color: var(--amber); }
   .mult-down { background: rgba(209,73,91,0.15); color: var(--red); }
+  .sparkline-cell { display: flex; align-items: center; }
+
+  .technical-block {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid var(--panel-line);
+    font-size: 13px;
+    color: var(--text-dim);
+  }
+  .technical-block .ta-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 4px;
+  }
 
   .empty-state {
     padding: 32px 0;
@@ -240,6 +275,10 @@
   </div>
   <div id="last-updated" class="mono">memuat...</div>
 </header>
+
+<div id="search-box">
+  <input type="text" id="search-input" placeholder="Cari token by symbol (mis. COIN, BITCAT)..." />
+</div>
 
 <main>
 
@@ -285,7 +324,7 @@
     <p class="desc">Dari titik pertama ketemu screener, udah naik/turun berapa kali lipat sampai sekarang.</p>
     <div id="performance-summary" class="summary-strip" style="margin-bottom:20px;"></div>
     <div class="row head">
-      <div>Symbol</div><div>Chain</div><div>Entry Mcap</div><div>Mcap Sekarang</div><div>Multiple</div><div>ATH</div>
+      <div>Symbol</div><div>Chain</div><div>Entry Mcap</div><div>Mcap Sekarang</div><div>Multiple</div><div>Trend</div><div>ATH</div>
     </div>
     <div id="performance-list"></div>
   </section>
@@ -297,18 +336,54 @@
 </footer>
 
 <script>
+let rawData = null;
+
+function sparklineSvg(history) {
+  if (!history || history.length < 2) return '<span class="num-cell" style="color:var(--text-dim)">-</span>';
+  const w = 60, h = 20, pad = 2;
+  const min = Math.min(...history);
+  const max = Math.max(...history);
+  const range = (max - min) || 1;
+  const stepX = (w - pad * 2) / (history.length - 1);
+  const points = history.map((v, i) => {
+    const x = pad + i * stepX;
+    const y = h - pad - ((v - min) / range) * (h - pad * 2);
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(' ');
+  const trendColor = history[history.length - 1] >= history[0] ? 'var(--green)' : 'var(--red)';
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><polyline points="${points}" fill="none" stroke="${trendColor}" stroke-width="1.5"/></svg>`;
+}
+
+function matchesSearch(symbol, term) {
+  if (!term) return true;
+  return (symbol || '').toLowerCase().includes(term.toLowerCase());
+}
+
 async function loadData() {
-  let data;
   try {
     const res = await fetch('./data.json', { cache: 'no-store' });
-    data = await res.json();
+    rawData = await res.json();
   } catch (e) {
     document.getElementById('last-updated').textContent = 'Belum ada data — jalankan agent-nya dulu.';
     return;
   }
 
-  const candidates = data.screener_candidates || [];
-  const reports = data.analysis_reports || [];
+  if (rawData.last_updated) {
+    const d = new Date(rawData.last_updated);
+    document.getElementById('last-updated').textContent = 'Update terakhir: ' + d.toLocaleString('id-ID');
+  }
+
+  renderAll('');
+
+  document.getElementById('search-input').addEventListener('input', (e) => {
+    renderAll(e.target.value.trim());
+  });
+}
+
+function renderAll(searchTerm) {
+  const data = rawData;
+  const candidates = (data.screener_candidates || []).filter(c => matchesSearch(c.symbol, searchTerm));
+  const reports = (data.analysis_reports || []).filter(r => matchesSearch(r.symbol, searchTerm));
   const activity = data.wallet_activity || [];
   const wallets = data.discovered_wallets || [];
 
@@ -316,11 +391,6 @@ async function loadData() {
   document.getElementById('count-reports').textContent = reports.length;
   document.getElementById('count-activity').textContent = activity.length;
   document.getElementById('count-wallets').textContent = wallets.length;
-
-  if (data.last_updated) {
-    const d = new Date(data.last_updated);
-    document.getElementById('last-updated').textContent = 'Update terakhir: ' + d.toLocaleString('id-ID');
-  }
 
   const fmtUsd = (n) => n ? '$' + Number(n).toLocaleString('en-US', {maximumFractionDigits: 0}) : '–';
   const fmtPct = (n) => {
@@ -331,7 +401,7 @@ async function loadData() {
 
   const candList = document.getElementById('candidates-list');
   if (candidates.length === 0) {
-    candList.innerHTML = '<div class="empty-state">Belum ada token kandidat. Jalankan token_screener.py.</div>';
+    candList.innerHTML = `<div class="empty-state">${searchTerm ? 'Gak ada token yang cocok pencarian.' : 'Belum ada token kandidat. Jalankan token_screener.py.'}</div>`;
   } else {
     candList.innerHTML = candidates.map(c => `
       <div class="row">
@@ -347,7 +417,7 @@ async function loadData() {
 
   const repList = document.getElementById('reports-list');
   if (reports.length === 0) {
-    repList.innerHTML = '<div class="empty-state">Belum ada laporan analisis.</div>';
+    repList.innerHTML = `<div class="empty-state">${searchTerm ? 'Gak ada laporan yang cocok pencarian.' : 'Belum ada laporan analisis.'}</div>`;
   } else {
     repList.innerHTML = reports.map(r => {
       let riskClass = 'risk-unknown';
@@ -355,6 +425,10 @@ async function loadData() {
       else if (r.risk_score && r.risk_score.includes('🟡')) riskClass = 'risk-mid';
       else if (r.risk_score && (r.risk_score.includes('🟠') || r.risk_score.includes('🔴'))) riskClass = 'risk-high';
       const flags = (r.security_flags || []).map(f => `<li>${f}</li>`).join('');
+      const tech = r.technical;
+      const techBlock = tech
+        ? `<div class="technical-block"><div class="ta-label">Analisis Teknikal</div>${tech.summary}</div>`
+        : '';
       return `
         <div class="report-card">
           <div class="report-top">
@@ -362,6 +436,7 @@ async function loadData() {
             <div class="risk-badge ${riskClass}">${r.risk_score || 'Tidak diketahui'}</div>
           </div>
           <ul class="flags-list">${flags}</ul>
+          ${techBlock}
         </div>
       `;
     }).join('');
@@ -399,9 +474,9 @@ async function loadData() {
   }
 
   // === Performance Tracking ===
-  const perfActive = data.performance_active || [];
-  const perfArchived = data.performance_archived || [];
-  const perfAll = [...perfActive, ...perfArchived];
+  const perfActiveAll = data.performance_active || [];
+  const perfArchivedAll = data.performance_archived || [];
+  const perfAll = [...perfActiveAll, ...perfArchivedAll].filter(e => matchesSearch(e.symbol, searchTerm));
 
   const summaryEl = document.getElementById('performance-summary');
   if (perfAll.length === 0) {
@@ -429,7 +504,7 @@ async function loadData() {
 
   const perfList = document.getElementById('performance-list');
   if (perfAll.length === 0) {
-    perfList.innerHTML = '<div class="empty-state">Belum ada token yang dipantau performanya. Otomatis keisi begitu screener nemu kandidat baru.</div>';
+    perfList.innerHTML = `<div class="empty-state">${searchTerm ? 'Gak ada token yang cocok pencarian.' : 'Belum ada token yang dipantau performanya. Otomatis keisi begitu screener nemu kandidat baru.'}</div>`;
   } else {
     perfList.innerHTML = perfAll.slice(0, 30).map(e => {
       const mult = e.current_multiple !== undefined ? e.current_multiple : e.final_multiple;
@@ -443,6 +518,7 @@ async function loadData() {
           <div class="num-cell">${fmtUsd(e.entry_market_cap_usd)}</div>
           <div class="num-cell">${fmtUsd(e.current_market_cap_usd)}</div>
           <div><span class="multiple-badge ${cls}">${mult ? mult.toFixed(2) + 'x' : '-'}</span></div>
+          <div class="sparkline-cell">${sparklineSvg(e.multiple_history)}</div>
           <div class="num-cell">${athMult.toFixed(2)}x</div>
         </div>
       `;

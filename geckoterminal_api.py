@@ -97,6 +97,23 @@ def get_pools_multi(chain: str, pool_addresses: list):
     return data.get("data", []) if data else []
 
 
+def get_ohlcv(chain: str, pool_address: str, timeframe: str = "hour", aggregate: int = 1, limit: int = 50):
+    """
+    Ambil data candle (open/high/low/close/volume) 1 pool - dasar buat ngitung
+    indikator teknikal (RSI, moving average) di technical_analysis.py.
+    timeframe: 'day', 'hour', atau 'minute'.
+    """
+    network = NETWORK_MAP.get(chain, chain)
+    url = f"{BASE_URL}/networks/{network}/pools/{pool_address}/ohlcv/{timeframe}"
+    data = _get(url, params={"aggregate": aggregate, "limit": limit})
+    if not data:
+        return []
+    try:
+        return data["data"]["attributes"]["ohlcv_list"]
+    except (KeyError, TypeError):
+        return []
+
+
 def parse_pool(pool: dict) -> dict:
     """Ubah raw JSON pool dari GeckoTerminal jadi dict ringkas & gampang dipakai."""
     attrs = pool.get("attributes", {})
