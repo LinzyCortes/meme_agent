@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T08:57:32.626638+00:00",
+  "last_updated": "2026-09-06T10:30:29.152056+00:00",
   "wallet_activity": [],
   "screener_candidates": [
     {
@@ -694,7 +694,17 @@
       "_logged_at": "2026-09-03T06:31:18.712873+00:00"
     }
   ],
-  "discovered_wallets": [],
+  "discovered_wallets": [
+    {
+      "address": "0x1473eb5c39d3bd4253d10b3848050e43306bbfc3",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:MNST:0x51613dc6f4787f2dae49daa8bd27f34c1fe3af1b",
+        "ethereum:SCHW:0xa00f26bb4331f09b139cffcac94cbdbeba74f9fd"
+      ]
+    }
+  ],
   "performance_active": [
     {
       "key": "solana:6imhRyMYu5xoGJ5W7yveymB5o5yfyAvXxveozWpbU5ix",
