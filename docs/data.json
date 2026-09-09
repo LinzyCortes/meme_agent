@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T13:46:40.043744+00:00",
+  "last_updated": "2026-09-09T16:08:35.159548+00:00",
   "wallet_activity": [
     {
       "label": "Smart Money (auto, 2x)",
@@ -1304,6 +1304,51 @@
       "evidence_tokens": [
         "ethereum:MNST:0x51613dc6f4787f2dae49daa8bd27f34c1fe3af1b",
         "ethereum:SCHW:0xa00f26bb4331f09b139cffcac94cbdbeba74f9fd"
+      ]
+    },
+    {
+      "address": "0x3221b9416c3ae6ae5ad1b9ef66e30b8e45d019eb",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
+        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+      ]
+    },
+    {
+      "address": "0xb387bc248564b4110357eb4652d90b4798c0fb36",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
+        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+      ]
+    },
+    {
+      "address": "0x9337d03ce4fa7e8fb226d78c9f0c467bc0bb06d1",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
+        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+      ]
+    },
+    {
+      "address": "0x1e4930496612163ab54ff707341a21cc7025a57d",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
+        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+      ]
+    },
+    {
+      "address": "0x4fd7160b9fa363715568a024e7870a0bcc63789f",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:LAPTOP:0x397729c03c0d68c3eeefb4c367160abf92e6b4cb",
+        "ethereum:CLRI:0x0d6655a1df0a726b8d8a84edb0131b4820e9d3d5"
       ]
     }
   ],
