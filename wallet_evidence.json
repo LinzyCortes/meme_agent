@@ -292,5 +292,17 @@
     "evidence_tokens": [
       "ethereum:PMBW:0x31d57f236e30d5fe9d87649a8f495235c65d20c7"
     ]
+  },
+  "0x5faf766a0842178845993e4a5f57b0a86b761c82": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:ReVit:0x8213e8cbe5a4487709aedbbf37e9054824c40137"
+    ]
+  },
+  "0x9ebb3dd1287f75a657ad4ab0c3230fe65f7313de": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:ReVit:0x8213e8cbe5a4487709aedbbf37e9054824c40137"
+    ]
   }
 }
