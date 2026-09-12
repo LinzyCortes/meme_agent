@@ -2,7 +2,8 @@
   "0x993bf6f885e3b34f9f98dec53af87562040ef273": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:TFC:0xbbd5d742f4f1aa9b9f9107052f588a4d4a6ebf31"
+      "ethereum:TFC:0xbbd5d742f4f1aa9b9f9107052f588a4d4a6ebf31",
+      "ethereum:PDP:0x5ab9f121151d3ba486782bceacf713178e0e7383"
     ]
   },
   "0x35e9e4c07df9538ac341253cad0ba67f91a2565f": {
@@ -309,6 +310,12 @@
     "chain": "ethereum",
     "evidence_tokens": [
       "ethereum:FCX:0x3c3aaf7849aa0cbcb5bbe81e5ee6781773e55a06"
+    ]
+  },
+  "0xdd31ed1e6c7498d801a22a0fc86957ff91bdae1e": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:PDP:0x5ab9f121151d3ba486782bceacf713178e0e7383"
     ]
   }
 }

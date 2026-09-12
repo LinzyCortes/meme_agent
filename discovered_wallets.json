@@ -46,5 +46,13 @@
       "ethereum:LAPTOP:0x397729c03c0d68c3eeefb4c367160abf92e6b4cb",
       "ethereum:CLRI:0x0d6655a1df0a726b8d8a84edb0131b4820e9d3d5"
     ]
+  },
+  "0x993bf6f885e3b34f9f98dec53af87562040ef273": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:TFC:0xbbd5d742f4f1aa9b9f9107052f588a4d4a6ebf31",
+      "ethereum:PDP:0x5ab9f121151d3ba486782bceacf713178e0e7383"
+    ]
   }
 }
