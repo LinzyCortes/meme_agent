@@ -323,5 +323,17 @@
     "evidence_tokens": [
       "ethereum:ASML:0xab71c3744f823974df2dd3941e737d993bc83667"
     ]
+  },
+  "0x7dfd7d76ea658b1d8096c9ddb6507dd1ebb65a1b": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:Behemoth:0xcc2af62c5fcf5ea29a4abd6611e4cfacd7c81a37"
+    ]
+  },
+  "0xe03203983ab93fead1449e8e27642f4b2eda3599": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:Behemoth:0xcc2af62c5fcf5ea29a4abd6611e4cfacd7c81a37"
+    ]
   }
 }
