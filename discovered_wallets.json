@@ -54,5 +54,13 @@
       "ethereum:TFC:0xbbd5d742f4f1aa9b9f9107052f588a4d4a6ebf31",
       "ethereum:PDP:0x5ab9f121151d3ba486782bceacf713178e0e7383"
     ]
+  },
+  "0x1af34b3c841f30c250c2e374a7c17eaed6c307d9": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:PANW:0x9dc9376ff35ab22d1b5e7bf2c6ec47865552a974",
+      "ethereum:SCHW:0xa00f26bb4331f09b139cffcac94cbdbeba74f9fd"
+    ]
   }
 }
