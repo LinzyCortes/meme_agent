@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T20:23:02.780834+00:00",
+  "last_updated": "2026-09-15T20:59:06.782310+00:00",
   "wallet_activity": [
     {
       "label": "Smart Money (auto, 2x)",
@@ -1914,10 +1914,11 @@
     {
       "address": "0x3221b9416c3ae6ae5ad1b9ef66e30b8e45d019eb",
       "chain": "ethereum",
-      "appearances": 2,
+      "appearances": 3,
       "evidence_tokens": [
         "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
-        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+        "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
       ]
     },
     {
@@ -1941,10 +1942,11 @@
     {
       "address": "0x1e4930496612163ab54ff707341a21cc7025a57d",
       "chain": "ethereum",
-      "appearances": 2,
+      "appearances": 3,
       "evidence_tokens": [
         "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
-        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+        "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
       ]
     },
     {
@@ -1972,6 +1974,69 @@
       "evidence_tokens": [
         "ethereum:PANW:0x9dc9376ff35ab22d1b5e7bf2c6ec47865552a974",
         "ethereum:SCHW:0xa00f26bb4331f09b139cffcac94cbdbeba74f9fd"
+      ]
+    },
+    {
+      "address": "0x35e9e4c07df9538ac341253cad0ba67f91a2565f",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+        "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
+      ]
+    },
+    {
+      "address": "0x3c133589c30a88361fec31df6c257b49dbca3dba",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+        "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
+      ]
+    },
+    {
+      "address": "0x4c68e28c6adfe94d2aa949a063992d1e9397607a",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+        "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
+      ]
+    },
+    {
+      "address": "0x436a116319602e72d4da2c9604a9a8652d992fd2",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+        "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
+      ]
+    },
+    {
+      "address": "0xd2ffb2ff49d26b13bb22c9d975351b2b9378bcb6",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+        "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
+      ]
+    },
+    {
+      "address": "0xe7b019ea9d22e94358202bddf7ce94fe0d536ae3",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
+        "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
+      ]
+    },
+    {
+      "address": "0x2c5bc230cc59277439f08352ae84ee89c0313b4d",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
+        "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
       ]
     }
   ],

@@ -9,14 +9,16 @@
   "0x35e9e4c07df9538ac341253cad0ba67f91a2565f": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+      "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
     ]
   },
   "0x3221b9416c3ae6ae5ad1b9ef66e30b8e45d019eb": {
     "chain": "ethereum",
     "evidence_tokens": [
       "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
-      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+      "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
     ]
   },
   "0xc96942c73835a72a476189d21026266c6d206d03": {
@@ -40,7 +42,8 @@
   "0x3c133589c30a88361fec31df6c257b49dbca3dba": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+      "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
     ]
   },
   "0xb387bc248564b4110357eb4652d90b4798c0fb36": {
@@ -53,7 +56,8 @@
   "0x4c68e28c6adfe94d2aa949a063992d1e9397607a": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+      "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
     ]
   },
   "0x9337d03ce4fa7e8fb226d78c9f0c467bc0bb06d1": {
@@ -66,20 +70,23 @@
   "0x436a116319602e72d4da2c9604a9a8652d992fd2": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+      "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
     ]
   },
   "0xd2ffb2ff49d26b13bb22c9d975351b2b9378bcb6": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+      "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
     ]
   },
   "0x1e4930496612163ab54ff707341a21cc7025a57d": {
     "chain": "ethereum",
     "evidence_tokens": [
       "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
-      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967"
+      "ethereum:RANDOM BEAVER SHOT:0x95c63db6db10f2d372687702e34b55e66f558967",
+      "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
     ]
   },
   "0x3975e6cdd7ffdb62acfdd25181d8383cd89c0b09": {
@@ -196,7 +203,8 @@
   "0xe7b019ea9d22e94358202bddf7ce94fe0d536ae3": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782"
+      "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
+      "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
     ]
   },
   "0xe1f7a3f213c390f965dedc8a2cbed8c68a5ed006": {
@@ -220,7 +228,8 @@
   "0x2c5bc230cc59277439f08352ae84ee89c0313b4d": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782"
+      "ethereum:Cha-San:0x4a48c4d5fd5004cd4fe5f8f297d3afc9acd00782",
+      "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
     ]
   },
   "0x8630f0a3ed31cec7133eb88253f6efd2ebbeaca3": {
@@ -431,6 +440,18 @@
     "chain": "ethereum",
     "evidence_tokens": [
       "ethereum:HYBRID:0xa30fe789634d04c7a4c62988385b4fa74ef8cda0"
+    ]
+  },
+  "0x48caac0254d71c617d08e1ae9167c5bb1730d22c": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
+    ]
+  },
+  "0xb412044cfa77d441add2a20d4efe0e288d246ea9": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
     ]
   }
 }
