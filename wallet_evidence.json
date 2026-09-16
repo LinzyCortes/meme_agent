@@ -105,8 +105,9 @@
   "0x1af34b3c841f30c250c2e374a7c17eaed6c307d9": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:SCHW:0xa00f26bb4331f09b139cffcac94cbdbeba74f9fd",
       "ethereum:PANW:0x9dc9376ff35ab22d1b5e7bf2c6ec47865552a974",
-      "ethereum:SCHW:0xa00f26bb4331f09b139cffcac94cbdbeba74f9fd"
+      "ethereum:TEAM:0x2c4092b3acbf2170d4d382157f2b4be505fb4fd0"
     ]
   },
   "0x1473eb5c39d3bd4253d10b3848050e43306bbfc3": {
@@ -452,6 +453,12 @@
     "chain": "ethereum",
     "evidence_tokens": [
       "ethereum:ETHSecurity:0x347e7407ac3dd370acf3e6bee6842afd7a5fec94"
+    ]
+  },
+  "0x3081bbff285b425098cd7022b8215570ae345bc4": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:$MRFD:0x53728580f4a95c756ad9f434a71087ef1dbe858a"
     ]
   }
 }
