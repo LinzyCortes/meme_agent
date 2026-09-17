@@ -466,5 +466,23 @@
     "evidence_tokens": [
       "ethereum:$ECA:0x3e6b8b21789834b09d5ffe819cb13f7bbd857be1"
     ]
+  },
+  "0x8524e5170bd4c67def1b10f80e5b771fa7032205": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:strixhalo:0x957511ca2a0f91f5fb4285cf5e74b58b38091cd3"
+    ]
+  },
+  "0x820e71f7a2aed17cf4c8a6426da4419324882d85": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:strixhalo:0x957511ca2a0f91f5fb4285cf5e74b58b38091cd3"
+    ]
+  },
+  "0x3b05dac8aa83a657cfd80e86e5e8ce23c3a7eb5c": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:strixhalo:0x957511ca2a0f91f5fb4285cf5e74b58b38091cd3"
+    ]
   }
 }
