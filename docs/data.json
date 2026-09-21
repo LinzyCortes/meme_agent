@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T20:06:29.227117+00:00",
+  "last_updated": "2026-09-21T21:48:30.157510+00:00",
   "wallet_activity": [
     {
       "label": "Smart Money (auto, 2x)",
@@ -2496,6 +2496,33 @@
       "evidence_tokens": [
         "ethereum:$MRFD:0x53728580f4a95c756ad9f434a71087ef1dbe858a",
         "ethereum:$DCCG:0xa98aa48e031212632181660897997e320af5d08a"
+      ]
+    },
+    {
+      "address": "0x2dcec643e2db8d773dddf422305f4a66f59dc383",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:corposlop:0x39e159a7d809311b908158cede3e6f5670782f57",
+        "ethereum:Cali:0x775409030e828d351e26c69e36c2ca4bbd5a0bda"
+      ]
+    },
+    {
+      "address": "0xaa4e80d506f91975c99a41e09222a6808d583baf",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:corposlop:0x39e159a7d809311b908158cede3e6f5670782f57",
+        "ethereum:Cali:0x775409030e828d351e26c69e36c2ca4bbd5a0bda"
+      ]
+    },
+    {
+      "address": "0xf3339042a1b6abfca627ca2dac78d4ce755467ac",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:corposlop:0x39e159a7d809311b908158cede3e6f5670782f57",
+        "ethereum:Cali:0x775409030e828d351e26c69e36c2ca4bbd5a0bda"
       ]
     }
   ],
