@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T20:12:56.207880+00:00",
+  "last_updated": "2026-09-22T21:01:23.710035+00:00",
   "wallet_activity": [
     {
       "label": "Smart Money (auto, 2x)",
@@ -2522,6 +2522,24 @@
       "evidence_tokens": [
         "ethereum:corposlop:0x39e159a7d809311b908158cede3e6f5670782f57",
         "ethereum:Cali:0x775409030e828d351e26c69e36c2ca4bbd5a0bda"
+      ]
+    },
+    {
+      "address": "0x4e744f7ff605141178b09b6eef3eaa112dabe0e1",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:LCID:0x90e3bda58f8c33cf0d0873b00378df790109dea5",
+        "ethereum:FCX:0x3c3aaf7849aa0cbcb5bbe81e5ee6781773e55a06"
+      ]
+    },
+    {
+      "address": "0xa60cd4a675fbafc000aab8b60ac890710e7d94ec",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:RMPF:0x4b5d288d147457809e2998f5c50b2b0f1ae815b8",
+        "ethereum:GTM:0x8f21466c6b73f079ae842e0b4e3faece26cacb94"
       ]
     }
   ],
