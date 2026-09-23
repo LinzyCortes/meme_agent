@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T19:33:58.668346+00:00",
+  "last_updated": "2026-09-23T21:15:24.872236+00:00",
   "wallet_activity": [
     {
       "label": "Smart Money (auto, 2x)",
@@ -2407,10 +2407,11 @@
     {
       "address": "0x1af34b3c841f30c250c2e374a7c17eaed6c307d9",
       "chain": "ethereum",
-      "appearances": 3,
+      "appearances": 4,
       "evidence_tokens": [
         "ethereum:SCHW:0xa00f26bb4331f09b139cffcac94cbdbeba74f9fd",
         "ethereum:PANW:0x9dc9376ff35ab22d1b5e7bf2c6ec47865552a974",
+        "ethereum:DELL:0xf69596a91451041b64081229da6dabf8c3059f0a",
         "ethereum:TEAM:0x2c4092b3acbf2170d4d382157f2b4be505fb4fd0"
       ]
     },
