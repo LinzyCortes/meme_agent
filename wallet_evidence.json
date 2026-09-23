@@ -676,6 +676,7 @@
   "0x0bd853bc8d0d4ea208cddb063361e7415ee45670": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:CSTR:0xcc3472d1b407ac13d93d57c14dba5d9fa650ee93",
       "ethereum:corposlop:0x70263d0eed26896403e33da8a1db9d7966cbaabd"
     ]
   },
@@ -731,6 +732,48 @@
     "chain": "ethereum",
     "evidence_tokens": [
       "ethereum:Apelon:0x71b3bb665f6959781328b93d27f1c4749342ce88"
+    ]
+  },
+  "0xd955ff50c03782a0d0014a1cbee6c38f83548636": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:CSTR:0xcc3472d1b407ac13d93d57c14dba5d9fa650ee93"
+    ]
+  },
+  "0x075932d640143ef0d06ea8129d57f1a3f6aeb228": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:CSTR:0xcc3472d1b407ac13d93d57c14dba5d9fa650ee93"
+    ]
+  },
+  "0x9d30307c3feac443b267b3917f370d8dbd5ab52a": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:CSTR:0xcc3472d1b407ac13d93d57c14dba5d9fa650ee93"
+    ]
+  },
+  "0xfded4965db47fa562b389a8b4945a60b70be47c7": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:CSTR:0xcc3472d1b407ac13d93d57c14dba5d9fa650ee93"
+    ]
+  },
+  "0x9e35b2d0c0a7988daee6024a638f0f5417ddb212": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:CSTR:0xcc3472d1b407ac13d93d57c14dba5d9fa650ee93"
+    ]
+  },
+  "0x9d3ae0f7454d104a3f2f6a9e59d211c2094a8689": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:CSTR:0xcc3472d1b407ac13d93d57c14dba5d9fa650ee93"
+    ]
+  },
+  "0xcc3f1d255a4169028cda4622fc348ef2cd59371e": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:CSTR:0xcc3472d1b407ac13d93d57c14dba5d9fa650ee93"
     ]
   }
 }
