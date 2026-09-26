@@ -1,7 +1,5 @@
 {
   "seen_txs": [
-    "0xf85a02d2baeec07b9890d6ee493a92525644b12121ed8b387f6029f538294a7a",
-    "0xdd34a8f8208d65505e446ab67242a8e5290c92f4949d292ad771dce1c3212e4d",
     "0xc4896f61af1cc9788e0076f9617fcffb5bb26975b3f25f09a9a77fc197a61c2d",
     "0x86b79c450d5088d672d4e01a3e819691ef566e78e2e49763e071fd8c1aecbb06",
     "0xe7b9a92eee4c86cd9d96134b53bfc15f3ce455d9316c68d022b872a177491a43",
@@ -1999,7 +1997,9 @@
     "0xf8ebc3512cb3a1ad99c17172fd9d97e75a5fc6736e4a695b2772a865a1900623",
     "0xabb648add19174e0fb74343fe17737d7b9efd44f3cc018454c7677393bee90de",
     "0x0efb70e8a1b13bb8c0fa2d995556d122c9575fa3fd88bd9cdf19e8fcb2da476d",
-    "0xd70982f577b5a0e5436343a091e22b4f4d147342a1ddacacaaf282f5d983f88b"
+    "0xd70982f577b5a0e5436343a091e22b4f4d147342a1ddacacaaf282f5d983f88b",
+    "0x0cfe46ad7e5b8a8cd977f8c35cd615b80caf01338dc3642262fa8daeb98c82c4",
+    "0x41e996b2f451ce7e47646da65dd42e3b5cddb2e9fff9324edcef19924b61ed18"
   ],
   "seen_tokens": [
     "solana:2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
@@ -2074,6 +2074,7 @@
     "solana:B1zosT5SqjsEGRSU1cGbSVJrkVYL9zzFXDa9cmZWRhZt",
     "solana:359UV3H3g2ZVff14AnZTWGeKaykLGdd7Ze3Kar68n6xR",
     "solana:Ftjga524YrS7RPzGCcezMuQnFDYa8PcvWDY5mFmZk5dy",
-    "ethereum:0xa71e66ea08938e801e65147ebc620b3f7f874cf4"
+    "ethereum:0xa71e66ea08938e801e65147ebc620b3f7f874cf4",
+    "solana:3yXXas5wQqC6LzV9x22GEqVr9Dgg1VC6yynkVGhRWJWM"
   ]
 }
