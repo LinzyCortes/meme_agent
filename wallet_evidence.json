@@ -506,12 +506,14 @@
   "0x78e2c3a6b3ae9aa35ea8f0af9ae8dea80dfaaaaa": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:\u4e2d\u79cb\u8282\u5feb\u4e50:0xacd99ed7c903b346e93c5b3a5c2173b89ee40fa6",
       "ethereum:Cali:0x775409030e828d351e26c69e36c2ca4bbd5a0bda"
     ]
   },
   "0x2dcec643e2db8d773dddf422305f4a66f59dc383": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:diamond:0xaaa2d59f1032c6895709cf3fbb7ac01a94fbb9a5",
       "ethereum:corposlop:0x39e159a7d809311b908158cede3e6f5670782f57",
       "ethereum:Cali:0x775409030e828d351e26c69e36c2ca4bbd5a0bda"
     ]
@@ -519,12 +521,14 @@
   "0x80e76739267bc32aa8d6e61a59ba72d705acd28d": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:\u4e2d\u79cb\u8282\u5feb\u4e50:0xacd99ed7c903b346e93c5b3a5c2173b89ee40fa6",
       "ethereum:Cali:0x775409030e828d351e26c69e36c2ca4bbd5a0bda"
     ]
   },
   "0xa938df74d0ff64c61b4ae74fb3cdc73c3a9376aa": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:\u4e2d\u79cb\u8282\u5feb\u4e50:0xacd99ed7c903b346e93c5b3a5c2173b89ee40fa6",
       "ethereum:Cali:0x775409030e828d351e26c69e36c2ca4bbd5a0bda"
     ]
   },
@@ -538,6 +542,7 @@
   "0xe7d0dce1ece1a0af7f9e02b95d8959528b51c0e4": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:diamond:0xaaa2d59f1032c6895709cf3fbb7ac01a94fbb9a5",
       "ethereum:Cali:0x775409030e828d351e26c69e36c2ca4bbd5a0bda"
     ]
   },
@@ -901,6 +906,49 @@
     "chain": "ethereum",
     "evidence_tokens": [
       "ethereum:LARAVEL:0xda258231e57d2dc94eee74615aaa0f1b4a8ca790"
+    ]
+  },
+  "0x516b0b5ac4df9e7fe50c47dc02126097cb2889cf": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:diamond:0xaaa2d59f1032c6895709cf3fbb7ac01a94fbb9a5",
+      "ethereum:\u4e2d\u79cb\u8282\u5feb\u4e50:0xacd99ed7c903b346e93c5b3a5c2173b89ee40fa6"
+    ]
+  },
+  "0x3a609326922ff695d139e75dc356b16ba241b4af": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:diamond:0xaaa2d59f1032c6895709cf3fbb7ac01a94fbb9a5"
+    ]
+  },
+  "0x3f18efe16316f1bd32b1d3dcb1f77d0584bdd13a": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:diamond:0xaaa2d59f1032c6895709cf3fbb7ac01a94fbb9a5"
+    ]
+  },
+  "0x0c6a15a9f965320dfeec8359a09fdb9aede97cd0": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:\u4e2d\u79cb\u8282\u5feb\u4e50:0xacd99ed7c903b346e93c5b3a5c2173b89ee40fa6"
+    ]
+  },
+  "0xa54e55d74fd678cf5e9495eb0bcfd63586f36afe": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:\u4e2d\u79cb\u8282\u5feb\u4e50:0xacd99ed7c903b346e93c5b3a5c2173b89ee40fa6"
+    ]
+  },
+  "0xc1e55afb7036c5b4c92589884b827bbc32361040": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:\u4e2d\u79cb\u8282\u5feb\u4e50:0xacd99ed7c903b346e93c5b3a5c2173b89ee40fa6"
+    ]
+  },
+  "0x9e20e7a44d9f0f422ce5cb6e1ac03e162b1aa4cc": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:\u4e2d\u79cb\u8282\u5feb\u4e50:0xacd99ed7c903b346e93c5b3a5c2173b89ee40fa6"
     ]
   }
 }
