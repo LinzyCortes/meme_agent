@@ -1,11 +1,5 @@
 {
   "seen_txs": [
-    "0xfd346a54016b45c6b43c7c96abbe54404dcbb7793006588c7f1af2ea00c1993e",
-    "0x38cb3b47f68953d086b00b2e3985ad2247149652c7c9bb72cdfbe214a76a6ccc",
-    "0xc1b3b4e11deec0f16cf3ebabd69f3aafaf3f10fe45b4773e15fcaee47a1d4d09",
-    "0x462543d48f8a2f6861cf42598d96da9679dc90b50c8fd6fe89ed63346e1e32e8",
-    "0xf0063ef2bf4d39213b32c36f145174cb62c53792e564cba7257ab535710d4620",
-    "0x6b1da086b6a189c34b85d6c012dc05f5ae72e84405d78bc55f4eb952d643bc4d",
     "0xeec8380bbe4938ea40c7862f7624feacf90dbfb8c78adeecbb51d77805c2fa50",
     "0x9532c6befd570b782dfc4c62c5a21aaf448eca6541f028733890904fdf7d86a7",
     "0xa614b76d30bc050b7e0dbd564a7fe2226352873b3f4bc6fd2e86c9b8d53f7dbc",
@@ -1999,7 +1993,13 @@
     "0x82b698e6d2cc017c9a756bf31e53737bdb955ed004ba5a618bd9ee28eca20ac3",
     "0xa9c3d6f1f156b276e74f727f0c897c7ebf53fcb981fa99cff7ed3f24a83902cd",
     "0xe0fabe90082e86fe2f11727fde0ce161210f51aaa8c1a5e25a5bdf02383a87ae",
-    "0x4498b28e1c605dfdc84acc21501d672c2fbede70de3834e233ff9a9d66d169d5"
+    "0x4498b28e1c605dfdc84acc21501d672c2fbede70de3834e233ff9a9d66d169d5",
+    "0x573a02cd9358cd2c2dd17ec95160f046ad3b286bdaaca5b37b7457587a88c26f",
+    "0xfd346a54016b45c6b43c7c96abbe54404dcbb7793006588c7f1af2ea00c1993e",
+    "0x38cb3b47f68953d086b00b2e3985ad2247149652c7c9bb72cdfbe214a76a6ccc",
+    "0xc1b3b4e11deec0f16cf3ebabd69f3aafaf3f10fe45b4773e15fcaee47a1d4d09",
+    "0x462543d48f8a2f6861cf42598d96da9679dc90b50c8fd6fe89ed63346e1e32e8",
+    "0xf0063ef2bf4d39213b32c36f145174cb62c53792e564cba7257ab535710d4620"
   ],
   "seen_tokens": [
     "solana:2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
@@ -2089,6 +2089,8 @@
     "solana:B4kJcppu2bxh7srJmEJq8NVM9SrpZVLum5YVjGq6VChH",
     "solana:CehXCosbGS31heNL6VotLqaSnFHZy8XmNWEyWEeXikrZ",
     "solana:AGubQRJ5T5snYFmUHqbxq4zobCHBhkw2jnC79mHaPqtc",
-    "ethereum:0x2f8e36dfd07aefa54876d4b2635dce86ba8c3503cb633f21ae1ee4c1d31b81ad"
+    "ethereum:0x2f8e36dfd07aefa54876d4b2635dce86ba8c3503cb633f21ae1ee4c1d31b81ad",
+    "solana:5L6SiELCoXrV9CtcfwUGKJf5EzCRTyDDmkbth1yEKp9f",
+    "solana:9Laz2p55TfBxoiDRWZQNU8SKzr9534ZKHW9hmZPDXZ7E"
   ]
 }
