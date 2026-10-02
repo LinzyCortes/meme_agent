@@ -1,8 +1,5 @@
 {
   "seen_txs": [
-    "0x56f4b6f63deced0aa932b6ec045ffd8429fc85f8218427a86c5c30e2e1decfba",
-    "0x9e81936102baea134b7d7315895fb8e8adee17788fa8382d86febc87600e4a74",
-    "0xb278935ec96820cea94fea20cc03e684b287311a08e0b8317faa53a7e1e6dc50",
     "0xa5fd694097dfefff485e1134cd44bcdae2c8fbea51072d8bcc7c9458eb531508",
     "0x12aba446d402de35ab49c4014c8f79f5f0ee9330e0a508a61159d0e13203dbfd",
     "0x9090f7e1005185092322b1bd56781e109c522e46db9ea9dff03ede229ee1fa98",
@@ -1999,7 +1996,10 @@
     "0x2a38e44320de0a1424fc1817cc1955556ccdd3ecd653092ad8858dbb7de7d3c8",
     "0x9b6fc33a3be6433ebc2ae63f64b24cf076ae8a84e7c7ded9bfb6965f8c9c31c1",
     "0x3d405f4ab2c791e48ca01d261b02b4f63cf70ab8df108d6495e2f6d2eb9d4b8a",
-    "0xe1052ba66be80f263f82f466d3cc899ea354366d780ca436231d3c1a3cfd0c2d"
+    "0xe1052ba66be80f263f82f466d3cc899ea354366d780ca436231d3c1a3cfd0c2d",
+    "0x8e21ec0574cd531df047c0d2551405d0876371e5750a9c991896fc7bc8a47b5f",
+    "0x45a2acc89c44022b2824f9704ffeac1414af9ab292fcdefa6ec76860b5bb4add",
+    "0x14ae9ad6eccbc46c4b4f6c45e176696ef9579e77cb6ee775053d37e332753645"
   ],
   "seen_tokens": [
     "solana:2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
@@ -2097,6 +2097,7 @@
     "solana:4zLRGHwKdXyaTovP8UkV66CskWgo9E7kAaGYcw1vFh7E",
     "solana:ECN4kZK2V53YfvCk9mgbozRmRUcxrLfMbDVv2hmJ3FL5",
     "solana:6xLfdSfHgxHSLgFt58BTv9z35qsGbmpqLdMU2FwsG2Tf",
-    "solana:6L2q7ZrUQCzUBm7RHV2w336ZCVVrVGqA6z5oNmQmUidP"
+    "solana:6L2q7ZrUQCzUBm7RHV2w336ZCVVrVGqA6z5oNmQmUidP",
+    "solana:6qirp44Q2T8B1CfbGmnqeXCLdQhFqmNCfAFfpKG4N156"
   ]
 }
