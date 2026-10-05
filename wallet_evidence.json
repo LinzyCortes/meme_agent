@@ -1112,5 +1112,17 @@
     "evidence_tokens": [
       "ethereum:IMDT:0x6b050594755b467caecf084e84c8e458e6458e2a"
     ]
+  },
+  "0x5767fc109d6b712554cb56faa1baf9e436edd412": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:FUEL:0x214086f7bba9a625b9ee465a12a8685ca2dcaee5"
+    ]
+  },
+  "0x1b21e72358bf97df562293476ef75c078344255e": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:FUEL:0x214086f7bba9a625b9ee465a12a8685ca2dcaee5"
+    ]
   }
 }
