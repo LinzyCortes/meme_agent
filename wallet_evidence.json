@@ -1076,5 +1076,41 @@
     "evidence_tokens": [
       "ethereum:SIF:0x853951319a095686313cffa11e3a34fbebb27fdd"
     ]
+  },
+  "0x7eba43b50224e4cf4635bb87f566db15fee9894d": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:IMDT:0xaa29d535c2dfd637912e64863b64a8e4f6f23154"
+    ]
+  },
+  "0x2b448c201e556f54a2525154a68c7eff5822154f": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:IMDT:0xaa29d535c2dfd637912e64863b64a8e4f6f23154"
+    ]
+  },
+  "0x6670a5f01b95ee8b1df6de3f298c99b73e2551b7": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:IMDT:0xaa29d535c2dfd637912e64863b64a8e4f6f23154"
+    ]
+  },
+  "0x252c4b290d64d1a8cba6d728113573e0b63abdf4": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:IMDT:0x6b050594755b467caecf084e84c8e458e6458e2a"
+    ]
+  },
+  "0x74046fd595bcd3420227ff5815a51923be4e4d79": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:IMDT:0x6b050594755b467caecf084e84c8e458e6458e2a"
+    ]
+  },
+  "0xf4200c64279c2109f497c4d8171c7aa4a9e82df6": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:IMDT:0x6b050594755b467caecf084e84c8e458e6458e2a"
+    ]
   }
 }
