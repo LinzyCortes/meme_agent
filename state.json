@@ -1,7 +1,5 @@
 {
   "seen_txs": [
-    "0xaebbf2f92c6a4dc8596368daf14108aff49974b96dc9f0a85b131cb9996989f7",
-    "0x30dfca7a018f2d701d960cfd25d85ea435e0a84da0b29f0331ba44ca52842382",
     "0x459c19aa028bce4efed970b49a397f0e877cad4d0f534ef00f4756cef084926a",
     "0x207698d4921a3600f11cd8b8a065d3e94d2411b9f797124cb6e36a07ece0bc5b",
     "0xabf23edd3042bf0a6c92c5940a7a5d13b65b8622b3648addeac42c2231c10af1",
@@ -1999,7 +1997,9 @@
     "0x9fc6808829144ca212d664b4b5f7e9b4161af6dc577c1128cee133ab891a45a3",
     "0x0219222513418589269891d0dd44e047919a6ce543bef9cfc37ab99caa3842ea",
     "0x626a65eda73bb1f5371ce59499f65ba83666b53eff53a2e2b02a0530b54253e7",
-    "0xdd897244feed690c1618eebfd6805022801dd3c34fc6c1af28b75292d4c1a44f"
+    "0xdd897244feed690c1618eebfd6805022801dd3c34fc6c1af28b75292d4c1a44f",
+    "0x4dbc785aa80bde4b4e2b06a51d57768ab359a85daf579617ff514936497eb127",
+    "0x901e874501075e00e132bcc16ab3057032e248787811985f3b1d444dd838d7e8"
   ],
   "seen_tokens": [
     "solana:2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
@@ -2108,6 +2108,9 @@
     "solana:5VbavvxS1NLmyNJLS3QbDoRFsUHKn6rBzmfVQdWWSniq",
     "solana:7jk1E9izLtLyR6BsyaAdCAPzoWTnq49sxyA5wzZbjRET",
     "solana:AZBsSg82ZpspEF97t1G7pHWjaiKNTXMatwC3TGDqPKxK",
-    "solana:AgcjmdfxxoCJjnW5ZHQmJCoDqacEpeEQvbLpqpuBKne5"
+    "solana:AgcjmdfxxoCJjnW5ZHQmJCoDqacEpeEQvbLpqpuBKne5",
+    "solana:bAfKrMEaiNsf1uZHd9g9KFd1fUtqqDnpWAtY19rziAd",
+    "solana:p977G14fUkDL3AoH97MAmqQ4V7Ecav5AZKhtPn21EHC",
+    "solana:9TasYTundRdYPSATAyVAuDNJpqHsCe8fGksK7dL1sRWL"
   ]
 }
