@@ -105,10 +105,11 @@
   "0x1af34b3c841f30c250c2e374a7c17eaed6c307d9": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:SCHW:0xa00f26bb4331f09b139cffcac94cbdbeba74f9fd",
       "ethereum:PANW:0x9dc9376ff35ab22d1b5e7bf2c6ec47865552a974",
       "ethereum:DELL:0xf69596a91451041b64081229da6dabf8c3059f0a",
-      "ethereum:TEAM:0x2c4092b3acbf2170d4d382157f2b4be505fb4fd0"
+      "ethereum:TEAM:0x2c4092b3acbf2170d4d382157f2b4be505fb4fd0",
+      "ethereum:NVO:0x5b1acf28f901694ebe82ed1b33e364e1795d7b5d",
+      "ethereum:SCHW:0xa00f26bb4331f09b139cffcac94cbdbeba74f9fd"
     ]
   },
   "0x1473eb5c39d3bd4253d10b3848050e43306bbfc3": {
@@ -329,6 +330,7 @@
   "0xdd31ed1e6c7498d801a22a0fc86957ff91bdae1e": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:STO:0x79176a6dd2b41b6d7039d98a2ea7538fb594c003",
       "ethereum:PDP:0x5ab9f121151d3ba486782bceacf713178e0e7383"
     ]
   },
