@@ -1196,6 +1196,7 @@
   "0x2894c757d38695f696da1edac1bf729b13e74cb3": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc",
       "ethereum:MOSS:0xbcdc86b18dacc09c56cd3081e0cad6d0ba349723"
     ]
   },
@@ -1238,13 +1239,69 @@
   "0x82473fa350910c3609e0048b5d514f03867ba406": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc",
       "ethereum:MOSS:0xbcdc86b18dacc09c56cd3081e0cad6d0ba349723"
     ]
   },
   "0x24907170d584395f814c82f74d0f8dfa0d478ed6": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc",
       "ethereum:MOSS:0xbcdc86b18dacc09c56cd3081e0cad6d0ba349723"
+    ]
+  },
+  "0xca7962fd4961287d0d3aca53b0ded9d42aaea294": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc"
+    ]
+  },
+  "0x104186a79d83786e8f3d7a160a95181a62946164": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc"
+    ]
+  },
+  "0xdfaa52e50548f73d40760cde2da7270699765a96": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc"
+    ]
+  },
+  "0xd8c74894641d6295ba5d992bc8e1dd2cc2b84113": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc"
+    ]
+  },
+  "0xa5db6799dea41c57b6c91327a5f1a52c834d7d36": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc"
+    ]
+  },
+  "0x15d2673ddd3d76c0b3ad9959c63ebdeb4ba88cd6": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc"
+    ]
+  },
+  "0xdde127e7874a6f13ef891b547dc812b09ce48607": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc"
+    ]
+  },
+  "0x5cf3c33bdcc7f3cc01784626f765cd201af7056c": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc"
+    ]
+  },
+  "0x0a1c25f4fe3f8bac3fce5a019257ac1b734122e2": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc"
     ]
   }
 }

@@ -244,5 +244,29 @@
       "ethereum:STO:0x79176a6dd2b41b6d7039d98a2ea7538fb594c003",
       "ethereum:PDP:0x5ab9f121151d3ba486782bceacf713178e0e7383"
     ]
+  },
+  "0x2894c757d38695f696da1edac1bf729b13e74cb3": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc",
+      "ethereum:MOSS:0xbcdc86b18dacc09c56cd3081e0cad6d0ba349723"
+    ]
+  },
+  "0x82473fa350910c3609e0048b5d514f03867ba406": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc",
+      "ethereum:MOSS:0xbcdc86b18dacc09c56cd3081e0cad6d0ba349723"
+    ]
+  },
+  "0x24907170d584395f814c82f74d0f8dfa0d478ed6": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:4206066:0x4a6ab10fba7001d7caa9e807eda9fd3fdca758fc",
+      "ethereum:MOSS:0xbcdc86b18dacc09c56cd3081e0cad6d0ba349723"
+    ]
   }
 }
