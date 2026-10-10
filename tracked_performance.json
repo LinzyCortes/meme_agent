@@ -8,10 +8,10 @@
       "entry_price_usd": 0.000419681437256047,
       "entry_market_cap_usd": 423912.2906,
       "entry_liquidity_usd": 141698.1984,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
       "current_price_usd": 3.64750844189794e-05,
       "current_market_cap_usd": 36475.08442,
-      "current_liquidity_usd": 43535.1654,
+      "current_liquidity_usd": 43493.8258,
       "current_multiple": 0.087,
       "ath_price_usd": 0.000432625760902084,
       "ath_multiple": 1.031,
@@ -20,7 +20,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/eth/pools/0x29f8c48856bf83141d3089dfa621683c711dddba3a25e13e5cbf2fad90146eb9",
       "multiple_history": [
-        0.1,
         0.098,
         0.098,
         0.098,
@@ -49,6 +48,7 @@
         0.085,
         0.089,
         0.125,
+        0.087,
         0.087
       ]
     },
@@ -60,11 +60,11 @@
       "entry_price_usd": 0.00019845504622128726,
       "entry_market_cap_usd": 181496.5836,
       "entry_liquidity_usd": 47418.2773,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 6.200486238878314e-05,
-      "current_market_cap_usd": 62004.86239,
-      "current_liquidity_usd": 28882.866,
-      "current_multiple": 0.312,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 6.04020592370232e-05,
+      "current_market_cap_usd": 60402.05924,
+      "current_liquidity_usd": 28301.0347,
+      "current_multiple": 0.304,
       "ath_price_usd": 0.0011234880565597516,
       "ath_multiple": 5.661,
       "ath_at": "2026-09-28T19:33:27.227421+00:00",
@@ -76,7 +76,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/7rZ5eyRfGRavGTFG9jSoG77MNnVkQRr6DNeGpxiFk2ca",
       "multiple_history": [
-        0.561,
         0.484,
         0.971,
         0.782,
@@ -105,7 +104,8 @@
         0.335,
         0.338,
         0.325,
-        0.312
+        0.312,
+        0.304
       ]
     },
     "solana:9Hr6NXw5WSffxNQnqxwZyhRw81uz3PpB7RF9J3i9nMt1": {
@@ -116,11 +116,11 @@
       "entry_price_usd": 0.0002941644785852755,
       "entry_market_cap_usd": 291717.358064632,
       "entry_liquidity_usd": 68799.478,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 5.7196625994856855e-05,
-      "current_market_cap_usd": 56720.8138230109,
-      "current_liquidity_usd": 28420.4056,
-      "current_multiple": 0.194,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 4.7895519732202365e-05,
+      "current_market_cap_usd": 47497.0823984731,
+      "current_liquidity_usd": 26322.9826,
+      "current_multiple": 0.163,
       "ath_price_usd": 0.0003244825166878095,
       "ath_multiple": 1.103,
       "ath_at": "2026-09-28T00:16:07.671623+00:00",
@@ -128,7 +128,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/9Hr6NXw5WSffxNQnqxwZyhRw81uz3PpB7RF9J3i9nMt1",
       "multiple_history": [
-        0.391,
         0.335,
         0.312,
         0.289,
@@ -157,7 +156,8 @@
         0.198,
         0.182,
         0.192,
-        0.194
+        0.194,
+        0.163
       ]
     },
     "solana:AQB9ihwudzy364jisT8jcCURSE8wCSYg7wu7gLZ6nGQn": {
@@ -168,10 +168,10 @@
       "entry_price_usd": 0.00013218930322245716,
       "entry_market_cap_usd": 132176.7652,
       "entry_liquidity_usd": 42126.744,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 6.904787063987305e-05,
-      "current_market_cap_usd": 69047.87064,
-      "current_liquidity_usd": 31704.7545,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 6.904585600229125e-05,
+      "current_market_cap_usd": 69045.856,
+      "current_liquidity_usd": 31664.2086,
       "current_multiple": 0.522,
       "ath_price_usd": 0.00034669858780187076,
       "ath_multiple": 2.623,
@@ -182,7 +182,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/AQB9ihwudzy364jisT8jcCURSE8wCSYg7wu7gLZ6nGQn",
       "multiple_history": [
-        0.689,
         0.788,
         0.698,
         0.65,
@@ -211,6 +210,7 @@
         0.563,
         0.515,
         0.479,
+        0.522,
         0.522
       ]
     },
@@ -222,11 +222,11 @@
       "entry_price_usd": 0.0002361509059427699,
       "entry_market_cap_usd": 230595.54875102,
       "entry_liquidity_usd": 52005.7681,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.00027156676303819913,
-      "current_market_cap_usd": 263716.539620653,
-      "current_liquidity_usd": 57284.3999,
-      "current_multiple": 1.15,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.00024390821346867406,
+      "current_market_cap_usd": 236855.056300762,
+      "current_liquidity_usd": 53846.0209,
+      "current_multiple": 1.033,
       "ath_price_usd": 0.0003139658634101992,
       "ath_multiple": 1.33,
       "ath_at": "2026-10-10T16:50:32.197391+00:00",
@@ -234,7 +234,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/CbR2UL7ktBr8MUUTj3FYcURZerp28GA2p1vPuMeKy1Je",
       "multiple_history": [
-        0.248,
         0.28,
         0.314,
         0.432,
@@ -263,7 +262,8 @@
         0.788,
         1.296,
         1.33,
-        1.15
+        1.15,
+        1.033
       ]
     },
     "solana:GZwsYYmc2a54HhX9ZGYTzo7LBChq1SSRDiV6RvvCBXzx": {
@@ -274,11 +274,11 @@
       "entry_price_usd": 0.0002172665151148782,
       "entry_market_cap_usd": 226565.6362,
       "entry_liquidity_usd": 45670.9345,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 2.8972578162574074e-05,
-      "current_market_cap_usd": 30200.04108,
-      "current_liquidity_usd": 15585.9537,
-      "current_multiple": 0.133,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 2.5714987582377582e-05,
+      "current_market_cap_usd": 25714.98758,
+      "current_liquidity_usd": 14032.3177,
+      "current_multiple": 0.118,
       "ath_price_usd": 0.0002172665151148782,
       "ath_multiple": 1.0,
       "ath_at": "2026-09-28T19:32:49.173081+00:00",
@@ -286,7 +286,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/GZwsYYmc2a54HhX9ZGYTzo7LBChq1SSRDiV6RvvCBXzx",
       "multiple_history": [
-        0.256,
         0.231,
         0.191,
         0.193,
@@ -315,7 +314,8 @@
         0.151,
         0.133,
         0.117,
-        0.133
+        0.133,
+        0.118
       ]
     },
     "solana:B4kJcppu2bxh7srJmEJq8NVM9SrpZVLum5YVjGq6VChH": {
@@ -326,10 +326,10 @@
       "entry_price_usd": 0.00038669006728822645,
       "entry_market_cap_usd": 373732.478702556,
       "entry_liquidity_usd": 66111.8903,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 1.1130739827696617e-05,
-      "current_market_cap_usd": 10764.2797967274,
-      "current_liquidity_usd": 9730.7454,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 1.1042476708234211e-05,
+      "current_market_cap_usd": 10678.9225847251,
+      "current_liquidity_usd": 9545.6063,
       "current_multiple": 0.029,
       "ath_price_usd": 0.00038669006728822645,
       "ath_multiple": 1.0,
@@ -338,7 +338,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/B4kJcppu2bxh7srJmEJq8NVM9SrpZVLum5YVjGq6VChH",
       "multiple_history": [
-        0.042,
         0.044,
         0.043,
         0.038,
@@ -367,6 +366,7 @@
         0.029,
         0.029,
         0.028,
+        0.029,
         0.029
       ]
     },
@@ -378,10 +378,10 @@
       "entry_price_usd": 0.0003864484429959651,
       "entry_market_cap_usd": 386794.089,
       "entry_liquidity_usd": 63859.1041,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 5.392803103907164e-06,
-      "current_market_cap_usd": 5255.2886606357,
-      "current_liquidity_usd": 5937.0297,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 5.468568896667678e-06,
+      "current_market_cap_usd": 5329.1224545158,
+      "current_liquidity_usd": 5970.0526,
       "current_multiple": 0.014,
       "ath_price_usd": 0.0004181915153277332,
       "ath_multiple": 1.082,
@@ -390,7 +390,6 @@
       "status_note": "Liquidity anjlok >90% dari titik awal - kemungkinan rug/ditinggal",
       "dex_url": "https://www.geckoterminal.com/solana/pools/CehXCosbGS31heNL6VotLqaSnFHZy8XmNWEyWEeXikrZ",
       "multiple_history": [
-        0.019,
         0.018,
         0.018,
         0.017,
@@ -412,6 +411,7 @@
         0.015,
         0.013,
         0.013,
+        0.014,
         0.014,
         0.014,
         0.014,
@@ -430,11 +430,11 @@
       "entry_price_usd": 0.00032120835484596144,
       "entry_market_cap_usd": 321208.3548,
       "entry_liquidity_usd": 54983.9635,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 8.285927535847452e-05,
-      "current_market_cap_usd": 60497.7182003122,
-      "current_liquidity_usd": 26429.2469,
-      "current_multiple": 0.258,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 8.13481726095001e-05,
+      "current_market_cap_usd": 59394.4226676874,
+      "current_liquidity_usd": 25795.3612,
+      "current_multiple": 0.253,
       "ath_price_usd": 0.00032120835484596144,
       "ath_multiple": 1.0,
       "ath_at": "2026-09-29T10:41:40.023007+00:00",
@@ -442,7 +442,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/AGubQRJ5T5snYFmUHqbxq4zobCHBhkw2jnC79mHaPqtc",
       "multiple_history": [
-        0.575,
         0.52,
         0.551,
         0.536,
@@ -471,7 +470,8 @@
         0.274,
         0.258,
         0.262,
-        0.258
+        0.258,
+        0.253
       ]
     },
     "ethereum:0x2f8e36dfd07aefa54876d4b2635dce86ba8c3503cb633f21ae1ee4c1d31b81ad": {
@@ -482,11 +482,11 @@
       "entry_price_usd": 0.000393046845801163,
       "entry_market_cap_usd": 393046.8458,
       "entry_liquidity_usd": 141503.8697,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 6.2045888685263e-05,
-      "current_market_cap_usd": 62045.88869,
-      "current_liquidity_usd": 103165.4291,
-      "current_multiple": 0.158,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 6.39498439439293e-05,
+      "current_market_cap_usd": 63949.84394,
+      "current_liquidity_usd": 102574.1745,
+      "current_multiple": 0.163,
       "ath_price_usd": 0.000412040591683166,
       "ath_multiple": 1.048,
       "ath_at": "2026-09-29T16:39:04.758902+00:00",
@@ -494,7 +494,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/eth/pools/0x2f8e36dfd07aefa54876d4b2635dce86ba8c3503cb633f21ae1ee4c1d31b81ad",
       "multiple_history": [
-        0.302,
         0.28,
         0.249,
         0.247,
@@ -523,7 +522,8 @@
         0.153,
         0.164,
         0.166,
-        0.158
+        0.158,
+        0.163
       ]
     },
     "solana:5L6SiELCoXrV9CtcfwUGKJf5EzCRTyDDmkbth1yEKp9f": {
@@ -534,10 +534,10 @@
       "entry_price_usd": 0.0003646577082841938,
       "entry_market_cap_usd": 350595.207383188,
       "entry_liquidity_usd": 68499.8221,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 1.8633010231338677e-05,
-      "current_market_cap_usd": 17909.2511212792,
-      "current_liquidity_usd": 13734.4876,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 1.8501668193327544e-05,
+      "current_market_cap_usd": 17783.009103427,
+      "current_liquidity_usd": 13857.0406,
       "current_multiple": 0.051,
       "ath_price_usd": 0.0003646577082841938,
       "ath_multiple": 1.0,
@@ -546,7 +546,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/5L6SiELCoXrV9CtcfwUGKJf5EzCRTyDDmkbth1yEKp9f",
       "multiple_history": [
-        0.093,
         0.093,
         0.098,
         0.066,
@@ -575,6 +574,7 @@
         0.053,
         0.052,
         0.052,
+        0.051,
         0.051
       ]
     },
@@ -586,10 +586,10 @@
       "entry_price_usd": 0.00013727026416481407,
       "entry_market_cap_usd": 135977.825292136,
       "entry_liquidity_usd": 36591.7277,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 5.131109794622155e-06,
-      "current_market_cap_usd": 5082.7989246289,
-      "current_liquidity_usd": 5453.006,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 5.089774517976517e-06,
+      "current_market_cap_usd": 5041.8528311172,
+      "current_liquidity_usd": 5454.4936,
       "current_multiple": 0.037,
       "ath_price_usd": 0.00013983032827889806,
       "ath_multiple": 1.019,
@@ -600,7 +600,6 @@
       "multiple_history": [
         0.046,
         0.046,
-        0.046,
         0.045,
         0.046,
         0.046,
@@ -627,6 +626,7 @@
         0.038,
         0.037,
         0.038,
+        0.037,
         0.037
       ]
     },
@@ -638,11 +638,11 @@
       "entry_price_usd": 0.00045779931774338716,
       "entry_market_cap_usd": 452608.85705752,
       "entry_liquidity_usd": 66071.1018,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.0065356008733463145,
-      "current_market_cap_usd": 6103800.7490623,
-      "current_liquidity_usd": 265018.7129,
-      "current_multiple": 14.276,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.00627753554532577,
+      "current_market_cap_usd": 5861222.07776753,
+      "current_liquidity_usd": 254119.0236,
+      "current_multiple": 13.712,
       "ath_price_usd": 0.014018690567013714,
       "ath_multiple": 30.622,
       "ath_at": "2026-10-02T23:46:18.473839+00:00",
@@ -656,7 +656,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/C7r9jXWiVYmBYR2Jj5YSLiEitUGJPjQXWeg7HPU8NwUk",
       "multiple_history": [
-        26.04,
         18.202,
         18.488,
         18.034,
@@ -685,7 +684,8 @@
         15.516,
         16.521,
         15.99,
-        14.276
+        14.276,
+        13.712
       ]
     },
     "solana:DyVrHutNGpuGFgJzDxZVfpAUbUjo1XJdaN9aDLrfRj6P": {
@@ -696,11 +696,11 @@
       "entry_price_usd": 5.253424316258675e-05,
       "entry_market_cap_usd": 48975.843320609,
       "entry_liquidity_usd": 23707.9213,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 6.250945157504681e-06,
-      "current_market_cap_usd": 5956.2521356816,
-      "current_liquidity_usd": 6673.0265,
-      "current_multiple": 0.119,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 6.1890037813405805e-06,
+      "current_market_cap_usd": 5897.2309077364,
+      "current_liquidity_usd": 6555.9192,
+      "current_multiple": 0.118,
       "ath_price_usd": 5.253424316258675e-05,
       "ath_multiple": 1.0,
       "ath_at": "2026-09-30T17:29:18.194715+00:00",
@@ -708,7 +708,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/DyVrHutNGpuGFgJzDxZVfpAUbUjo1XJdaN9aDLrfRj6P",
       "multiple_history": [
-        0.134,
         0.17,
         0.147,
         0.135,
@@ -737,7 +736,8 @@
         0.118,
         0.12,
         0.121,
-        0.119
+        0.119,
+        0.118
       ]
     },
     "solana:4zLRGHwKdXyaTovP8UkV66CskWgo9E7kAaGYcw1vFh7E": {
@@ -748,11 +748,11 @@
       "entry_price_usd": 0.00030123355164074023,
       "entry_market_cap_usd": 288786.67348576,
       "entry_liquidity_usd": 61785.5309,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 4.077100875451494e-05,
-      "current_market_cap_usd": 39070.7380174656,
-      "current_liquidity_usd": 22810.638,
-      "current_multiple": 0.135,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 4.1702936344330896e-05,
+      "current_market_cap_usd": 39963.7994981506,
+      "current_liquidity_usd": 23063.4441,
+      "current_multiple": 0.138,
       "ath_price_usd": 0.0018221676086946415,
       "ath_multiple": 6.049,
       "ath_at": "2026-10-02T15:17:22.862689+00:00",
@@ -764,7 +764,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/4zLRGHwKdXyaTovP8UkV66CskWgo9E7kAaGYcw1vFh7E",
       "multiple_history": [
-        0.942,
         0.872,
         0.922,
         0.838,
@@ -793,7 +792,8 @@
         0.215,
         0.172,
         0.135,
-        0.135
+        0.135,
+        0.138
       ]
     },
     "solana:ECN4kZK2V53YfvCk9mgbozRmRUcxrLfMbDVv2hmJ3FL5": {
@@ -804,11 +804,11 @@
       "entry_price_usd": 7.773117175195785e-05,
       "entry_market_cap_usd": 77731.17175,
       "entry_liquidity_usd": 27018.7776,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 5.215699370184906e-06,
-      "current_market_cap_usd": 5215.69937,
-      "current_liquidity_usd": 5303.4646,
-      "current_multiple": 0.067,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 5.148273747875333e-06,
+      "current_market_cap_usd": 5148.273748,
+      "current_liquidity_usd": 5343.4936,
+      "current_multiple": 0.066,
       "ath_price_usd": 7.773117175195785e-05,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-01T23:25:20.802056+00:00",
@@ -816,7 +816,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/ECN4kZK2V53YfvCk9mgbozRmRUcxrLfMbDVv2hmJ3FL5",
       "multiple_history": [
-        0.109,
         0.113,
         0.099,
         0.082,
@@ -845,7 +844,8 @@
         0.066,
         0.066,
         0.066,
-        0.067
+        0.067,
+        0.066
       ]
     },
     "solana:6xLfdSfHgxHSLgFt58BTv9z35qsGbmpqLdMU2FwsG2Tf": {
@@ -856,11 +856,11 @@
       "entry_price_usd": 0.0003749628488215377,
       "entry_market_cap_usd": 374962.8488,
       "entry_liquidity_usd": 61337.6009,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 3.4363182941188595e-05,
-      "current_market_cap_usd": 34363.18294,
-      "current_liquidity_usd": 17129.4242,
-      "current_multiple": 0.092,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 3.366598762772125e-05,
+      "current_market_cap_usd": 33665.98763,
+      "current_liquidity_usd": 16995.1427,
+      "current_multiple": 0.09,
       "ath_price_usd": 0.0003749628488215377,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-01T23:25:20.817167+00:00",
@@ -868,7 +868,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/6xLfdSfHgxHSLgFt58BTv9z35qsGbmpqLdMU2FwsG2Tf",
       "multiple_history": [
-        0.273,
         0.284,
         0.337,
         0.41,
@@ -897,7 +896,8 @@
         0.105,
         0.091,
         0.092,
-        0.092
+        0.092,
+        0.09
       ]
     },
     "solana:6L2q7ZrUQCzUBm7RHV2w336ZCVVrVGqA6z5oNmQmUidP": {
@@ -908,11 +908,11 @@
       "entry_price_usd": 0.00024979066859615,
       "entry_market_cap_usd": 245271.358301261,
       "entry_liquidity_usd": 56894.5451,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 1.0673354201276503e-05,
-      "current_market_cap_usd": 10626.1348677162,
-      "current_liquidity_usd": 9990.0199,
-      "current_multiple": 0.043,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 1.054478625519264e-05,
+      "current_market_cap_usd": 10498.1357172613,
+      "current_liquidity_usd": 9982.6096,
+      "current_multiple": 0.042,
       "ath_price_usd": 0.0002666794952098535,
       "ath_multiple": 1.068,
       "ath_at": "2026-10-02T08:48:07.979675+00:00",
@@ -920,7 +920,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/6L2q7ZrUQCzUBm7RHV2w336ZCVVrVGqA6z5oNmQmUidP",
       "multiple_history": [
-        0.283,
         0.246,
         0.242,
         0.158,
@@ -949,7 +948,8 @@
         0.051,
         0.045,
         0.04,
-        0.043
+        0.043,
+        0.042
       ]
     },
     "solana:6qirp44Q2T8B1CfbGmnqeXCLdQhFqmNCfAFfpKG4N156": {
@@ -960,11 +960,11 @@
       "entry_price_usd": 0.0003754065330837796,
       "entry_market_cap_usd": 364896.350080626,
       "entry_liquidity_usd": 63986.7145,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.00023445563135332414,
-      "current_market_cap_usd": 226776.75139725,
-      "current_liquidity_usd": 50654.7314,
-      "current_multiple": 0.625,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.00021367507645981572,
+      "current_market_cap_usd": 206733.985716368,
+      "current_liquidity_usd": 48635.9496,
+      "current_multiple": 0.569,
       "ath_price_usd": 0.0003756689344941828,
       "ath_multiple": 1.001,
       "ath_at": "2026-10-02T15:17:22.862689+00:00",
@@ -972,7 +972,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/6qirp44Q2T8B1CfbGmnqeXCLdQhFqmNCfAFfpKG4N156",
       "multiple_history": [
-        0.548,
         0.575,
         0.423,
         0.389,
@@ -1001,7 +1000,8 @@
         0.544,
         0.502,
         0.632,
-        0.625
+        0.625,
+        0.569
       ]
     },
     "solana:31eCTC8W3VcX7BiFwK2o5Ax41FPi2UyHcehcy2Gd3H5h": {
@@ -1012,11 +1012,11 @@
       "entry_price_usd": 0.0001907044652844955,
       "entry_market_cap_usd": 190410.349499955,
       "entry_liquidity_usd": 49430.6766,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 1.0725095112492421e-05,
-      "current_market_cap_usd": 10601.3086536798,
-      "current_liquidity_usd": 10111.7222,
-      "current_multiple": 0.056,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 1.0519547409877929e-05,
+      "current_market_cap_usd": 10398.133335568,
+      "current_liquidity_usd": 9997.4293,
+      "current_multiple": 0.055,
       "ath_price_usd": 0.00020542482782395937,
       "ath_multiple": 1.077,
       "ath_at": "2026-10-02T20:04:28.157640+00:00",
@@ -1024,7 +1024,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/31eCTC8W3VcX7BiFwK2o5Ax41FPi2UyHcehcy2Gd3H5h",
       "multiple_history": [
-        0.435,
         0.432,
         0.428,
         0.328,
@@ -1053,7 +1052,8 @@
         0.067,
         0.064,
         0.056,
-        0.056
+        0.056,
+        0.055
       ]
     },
     "solana:BA2YYZ4YUKsMCMDGpqrV5FQiotGnyKrc571pFhc66Gje": {
@@ -1064,10 +1064,10 @@
       "entry_price_usd": 0.0003376733489827347,
       "entry_market_cap_usd": 339305.907926536,
       "entry_liquidity_usd": 58596.0665,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 1.0840344110892616e-05,
-      "current_market_cap_usd": 10577.7743956181,
-      "current_liquidity_usd": 9411.1794,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 1.0805673361984694e-05,
+      "current_market_cap_usd": 10543.9434242112,
+      "current_liquidity_usd": 9356.4686,
       "current_multiple": 0.032,
       "ath_price_usd": 0.0012559084391065294,
       "ath_multiple": 3.719,
@@ -1079,7 +1079,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/BA2YYZ4YUKsMCMDGpqrV5FQiotGnyKrc571pFhc66Gje",
       "multiple_history": [
-        0.58,
         0.328,
         0.294,
         0.186,
@@ -1108,6 +1107,7 @@
         0.032,
         0.032,
         0.033,
+        0.032,
         0.032
       ]
     },
@@ -1119,11 +1119,11 @@
       "entry_price_usd": 0.0002211087466367357,
       "entry_market_cap_usd": 217387.901498913,
       "entry_liquidity_usd": 52252.9191,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 2.4051323604325808e-05,
-      "current_market_cap_usd": 24051.3235998797,
-      "current_liquidity_usd": 16006.2434,
-      "current_multiple": 0.109,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 1.650943732999298e-05,
+      "current_market_cap_usd": 16509.4373299175,
+      "current_liquidity_usd": 12897.3493,
+      "current_multiple": 0.075,
       "ath_price_usd": 0.000222528201483797,
       "ath_multiple": 1.006,
       "ath_at": "2026-10-02T23:46:18.473839+00:00",
@@ -1131,7 +1131,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/3hSL3G9q4ZYZWLgyQVX2TCVM6hS2izKcDuweHTPzZgfV",
       "multiple_history": [
-        0.201,
         0.208,
         0.214,
         0.195,
@@ -1160,7 +1159,8 @@
         0.058,
         0.057,
         0.088,
-        0.109
+        0.109,
+        0.075
       ]
     },
     "solana:BoiL8W7CfhoGfjr3VHFH34GfKdkmGm7y1YyXbweLfcX7": {
@@ -1171,10 +1171,10 @@
       "entry_price_usd": 0.00017722231695124172,
       "entry_market_cap_usd": 173450.8151,
       "entry_liquidity_usd": 39885.7017,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 7.912124759640781e-06,
-      "current_market_cap_usd": 7912.12476,
-      "current_liquidity_usd": 6915.8885,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 7.941437474721182e-06,
+      "current_market_cap_usd": 7941.437475,
+      "current_liquidity_usd": 6967.602,
       "current_multiple": 0.045,
       "ath_price_usd": 0.00017722231695124172,
       "ath_multiple": 1.0,
@@ -1183,7 +1183,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/BoiL8W7CfhoGfjr3VHFH34GfKdkmGm7y1YyXbweLfcX7",
       "multiple_history": [
-        0.34,
         0.265,
         0.422,
         0.158,
@@ -1212,6 +1211,7 @@
         0.045,
         0.045,
         0.045,
+        0.045,
         0.045
       ]
     },
@@ -1223,10 +1223,10 @@
       "entry_price_usd": 0.00012219861419317517,
       "entry_market_cap_usd": 124588.595299875,
       "entry_liquidity_usd": 35080.7362,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 5.728384506128357e-06,
-      "current_market_cap_usd": 5564.3989525543,
-      "current_liquidity_usd": 6019.1285,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 5.728958380206823e-06,
+      "current_market_cap_usd": 5564.9563697096,
+      "current_liquidity_usd": 5825.3111,
       "current_multiple": 0.047,
       "ath_price_usd": 0.00013749154429523017,
       "ath_multiple": 1.125,
@@ -1235,7 +1235,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/9KBF3KqYErfs1NXRK35gb4J8wnAD2i9ePZAzcwn7yhFT",
       "multiple_history": [
-        0.433,
         0.367,
         0.18,
         0.119,
@@ -1264,6 +1263,7 @@
         0.054,
         0.054,
         0.052,
+        0.047,
         0.047
       ]
     },
@@ -1275,11 +1275,11 @@
       "entry_price_usd": 0.00045426606426970804,
       "entry_market_cap_usd": 440023.464032544,
       "entry_liquidity_usd": 65774.0094,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.00032475097925680635,
-      "current_market_cap_usd": 313708.103994183,
-      "current_liquidity_usd": 58089.757,
-      "current_multiple": 0.715,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.00029959946261078817,
+      "current_market_cap_usd": 289411.543199319,
+      "current_liquidity_usd": 55492.3527,
+      "current_multiple": 0.66,
       "ath_price_usd": 0.0008394357562184488,
       "ath_multiple": 1.848,
       "ath_at": "2026-10-05T00:33:03.783275+00:00",
@@ -1287,7 +1287,6 @@
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/2qWF4dn1JnqhCpAYJQnKVaKezzuUiG4xdnbnCSK1Pgcw",
       "multiple_history": [
-        0.995,
         1.011,
         1.417,
         1.113,
@@ -1316,7 +1315,8 @@
         0.649,
         0.877,
         0.665,
-        0.715
+        0.715,
+        0.66
       ]
     },
     "solana:5VbavvxS1NLmyNJLS3QbDoRFsUHKn6rBzmfVQdWWSniq": {
@@ -1327,11 +1327,11 @@
       "entry_price_usd": 0.00044306320954545076,
       "entry_market_cap_usd": 434071.658323916,
       "entry_liquidity_usd": 75245.2222,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 4.178278007012827e-05,
-      "current_market_cap_usd": 40934.8378413901,
-      "current_liquidity_usd": 21916.0763,
-      "current_multiple": 0.094,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 4.859179222547507e-05,
+      "current_market_cap_usd": 47605.6675028606,
+      "current_liquidity_usd": 23754.2996,
+      "current_multiple": 0.11,
       "ath_price_usd": 0.00044306320954545076,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-04T18:43:36.283599+00:00",
@@ -1367,7 +1367,8 @@
         0.144,
         0.117,
         0.121,
-        0.094
+        0.094,
+        0.11
       ]
     },
     "solana:7jk1E9izLtLyR6BsyaAdCAPzoWTnq49sxyA5wzZbjRET": {
@@ -1378,11 +1379,11 @@
       "entry_price_usd": 0.0001878428932799662,
       "entry_market_cap_usd": 188529.9178,
       "entry_liquidity_usd": 48072.017,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 1.5125229140637867e-05,
-      "current_market_cap_usd": 15125.22914,
-      "current_liquidity_usd": 11957.8845,
-      "current_multiple": 0.081,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 1.0872758008560956e-05,
+      "current_market_cap_usd": 10872.75801,
+      "current_liquidity_usd": 9822.9005,
+      "current_multiple": 0.058,
       "ath_price_usd": 0.0001878428932799662,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-04T18:43:36.299462+00:00",
@@ -1418,7 +1419,8 @@
         0.102,
         0.094,
         0.082,
-        0.081
+        0.081,
+        0.058
       ]
     },
     "solana:AZBsSg82ZpspEF97t1G7pHWjaiKNTXMatwC3TGDqPKxK": {
@@ -1429,11 +1431,11 @@
       "entry_price_usd": 0.00014226982968400787,
       "entry_market_cap_usd": 142269.8297,
       "entry_liquidity_usd": 40523.2302,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.00012525583177188382,
-      "current_market_cap_usd": 121414.683440945,
-      "current_liquidity_usd": 39542.6722,
-      "current_multiple": 0.88,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.00013640876367034457,
+      "current_market_cap_usd": 132225.594810239,
+      "current_liquidity_usd": 41260.0593,
+      "current_multiple": 0.959,
       "ath_price_usd": 0.0002948267645214046,
       "ath_multiple": 2.072,
       "ath_at": "2026-10-05T21:41:06.546925+00:00",
@@ -1468,7 +1470,8 @@
         1.47,
         1.109,
         0.888,
-        0.88
+        0.88,
+        0.959
       ]
     },
     "solana:AgcjmdfxxoCJjnW5ZHQmJCoDqacEpeEQvbLpqpuBKne5": {
@@ -1479,10 +1482,10 @@
       "entry_price_usd": 0.0003660985451473479,
       "entry_market_cap_usd": 366683.030272261,
       "entry_liquidity_usd": 57419.2746,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 5.2377056323653905e-06,
-      "current_market_cap_usd": 4561.952483496,
-      "current_liquidity_usd": 5186.6696,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 5.293710886317949e-06,
+      "current_market_cap_usd": 4610.7321067748,
+      "current_liquidity_usd": 5217.1806,
       "current_multiple": 0.014,
       "ath_price_usd": 0.0005076759815218192,
       "ath_multiple": 1.387,
@@ -1515,6 +1518,7 @@
         0.014,
         0.014,
         0.015,
+        0.014,
         0.014
       ]
     },
@@ -1526,11 +1530,11 @@
       "entry_price_usd": 0.0004974688793535439,
       "entry_market_cap_usd": 498463.912104158,
       "entry_liquidity_usd": 77961.4455,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 2.3968316089230753e-05,
-      "current_market_cap_usd": 23721.5803448969,
-      "current_liquidity_usd": 15573.3558,
-      "current_multiple": 0.048,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 2.2161719668032856e-05,
+      "current_market_cap_usd": 21933.5814730982,
+      "current_liquidity_usd": 14866.9245,
+      "current_multiple": 0.045,
       "ath_price_usd": 0.000526236952291843,
       "ath_multiple": 1.058,
       "ath_at": "2026-10-06T15:25:19.976662+00:00",
@@ -1560,7 +1564,8 @@
         0.109,
         0.107,
         0.085,
-        0.048
+        0.048,
+        0.045
       ]
     },
     "solana:p977G14fUkDL3AoH97MAmqQ4V7Ecav5AZKhtPn21EHC": {
@@ -1571,11 +1576,11 @@
       "entry_price_usd": 0.0004723439592212221,
       "entry_market_cap_usd": 472343.9592,
       "entry_liquidity_usd": 70062.1691,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.0003040384171806815,
-      "current_market_cap_usd": 292336.825171104,
-      "current_liquidity_usd": 57668.3252,
-      "current_multiple": 0.644,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.00032247666535138036,
+      "current_market_cap_usd": 310065.436542473,
+      "current_liquidity_usd": 60105.9908,
+      "current_multiple": 0.683,
       "ath_price_usd": 0.0012177323103161782,
       "ath_multiple": 2.578,
       "ath_at": "2026-10-06T08:29:03.004692+00:00",
@@ -1607,7 +1612,8 @@
         0.735,
         0.728,
         0.671,
-        0.644
+        0.644,
+        0.683
       ]
     },
     "solana:9TasYTundRdYPSATAyVAuDNJpqHsCe8fGksK7dL1sRWL": {
@@ -1618,11 +1624,11 @@
       "entry_price_usd": 3.278184587002683e-05,
       "entry_market_cap_usd": 32453.1195734523,
       "entry_liquidity_usd": 17236.5478,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 7.605344058377313e-06,
-      "current_market_cap_usd": 7529.0800002629,
-      "current_liquidity_usd": 6993.8,
-      "current_multiple": 0.232,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 7.65414251355402e-06,
+      "current_market_cap_usd": 7577.3891203121,
+      "current_liquidity_usd": 6949.7095,
+      "current_multiple": 0.233,
       "ath_price_usd": 3.278184587002683e-05,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-06T01:54:11.912351+00:00",
@@ -1652,7 +1658,8 @@
         0.251,
         0.241,
         0.248,
-        0.232
+        0.232,
+        0.233
       ]
     },
     "solana:BaiHzFqngF1EspbdcVUCH9iKyLcKQZDwWPh7ZmZsqJ5t": {
@@ -1663,11 +1670,11 @@
       "entry_price_usd": 0.00043390890720610743,
       "entry_market_cap_usd": 441054.533402126,
       "entry_liquidity_usd": 71929.1214,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 8.201831080595531e-05,
-      "current_market_cap_usd": 79027.2003045235,
-      "current_liquidity_usd": 30531.1525,
-      "current_multiple": 0.189,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 8.772261920646918e-05,
+      "current_market_cap_usd": 84523.4349932505,
+      "current_liquidity_usd": 31603.981,
+      "current_multiple": 0.202,
       "ath_price_usd": 0.0006948673938021228,
       "ath_multiple": 1.601,
       "ath_at": "2026-10-06T20:28:20.931470+00:00",
@@ -1695,7 +1702,8 @@
         0.616,
         0.363,
         0.225,
-        0.189
+        0.189,
+        0.202
       ]
     },
     "solana:12jc1DzJpzbCDaKuM4brAKh9jcFry2TLG1FfGsL4ftCG": {
@@ -1706,11 +1714,11 @@
       "entry_price_usd": 0.00020171088567379338,
       "entry_market_cap_usd": 201710.5673,
       "entry_liquidity_usd": 40226.6353,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.0006155276840554888,
-      "current_market_cap_usd": 614820.146,
-      "current_liquidity_usd": 74919.4755,
-      "current_multiple": 3.052,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.0006926499171713304,
+      "current_market_cap_usd": 689622.7284,
+      "current_liquidity_usd": 79713.6429,
+      "current_multiple": 3.434,
       "ath_price_usd": 0.0017806421333154225,
       "ath_multiple": 8.828,
       "ath_at": "2026-10-09T08:01:16.894223+00:00",
@@ -1740,7 +1748,8 @@
         6.774,
         3.565,
         3.346,
-        3.052
+        3.052,
+        3.434
       ]
     },
     "solana:53W7r4XUxCSnLGoAvj3nPiXnSzyWGZkYHVavYtLpyaXM": {
@@ -1751,11 +1760,11 @@
       "entry_price_usd": 0.0004480227354434648,
       "entry_market_cap_usd": 420103.782862632,
       "entry_liquidity_usd": 72142.1853,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.00018861816598882955,
-      "current_market_cap_usd": 178685.084122519,
-      "current_liquidity_usd": 47411.293,
-      "current_multiple": 0.421,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.00018468548022499933,
+      "current_market_cap_usd": 174959.50267826,
+      "current_liquidity_usd": 46919.1644,
+      "current_multiple": 0.412,
       "ath_price_usd": 0.001130016680389048,
       "ath_multiple": 2.522,
       "ath_at": "2026-10-08T02:44:09.164783+00:00",
@@ -1783,7 +1792,8 @@
         0.452,
         0.321,
         0.372,
-        0.421
+        0.421,
+        0.412
       ]
     },
     "base:0xf589613ae1a558764319ad789a6057bf4f3fe1ff12523851704d8408c890e862": {
@@ -1794,10 +1804,10 @@
       "entry_price_usd": 6.66593869607952e-05,
       "entry_market_cap_usd": 66659.38696,
       "entry_liquidity_usd": 13405.9525,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
       "current_price_usd": 4.83232842234715e-06,
       "current_market_cap_usd": 4832.328422,
-      "current_liquidity_usd": 39882.1151,
+      "current_liquidity_usd": 39751.9458,
       "current_multiple": 0.072,
       "ath_price_usd": 6.66593869607952e-05,
       "ath_multiple": 1.0,
@@ -1824,6 +1834,7 @@
         0.072,
         0.072,
         0.072,
+        0.072,
         0.072
       ]
     },
@@ -1835,11 +1846,11 @@
       "entry_price_usd": 0.0001157052477620596,
       "entry_market_cap_usd": 117856.01654006,
       "entry_liquidity_usd": 34510.8922,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 2.029894228928692e-05,
-      "current_market_cap_usd": 19858.2244224396,
-      "current_liquidity_usd": 12692.9682,
-      "current_multiple": 0.175,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 2.105129994278189e-05,
+      "current_market_cap_usd": 20711.3217744987,
+      "current_liquidity_usd": 13109.3854,
+      "current_multiple": 0.182,
       "ath_price_usd": 0.0001157052477620596,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-07T05:16:27.305464+00:00",
@@ -1864,7 +1875,8 @@
         0.254,
         0.236,
         0.216,
-        0.175
+        0.175,
+        0.182
       ]
     },
     "solana:745ATaSSWxvry5qt1XVv9eXuG884hDvNJfvA2o82dNBi": {
@@ -1875,11 +1887,11 @@
       "entry_price_usd": 0.0002319114353208482,
       "entry_market_cap_usd": 221782.882650527,
       "entry_liquidity_usd": 46607.3402,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.00036476634432474725,
-      "current_market_cap_usd": 346565.832680361,
-      "current_liquidity_usd": 65054.1945,
-      "current_multiple": 1.573,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.00030142807194083666,
+      "current_market_cap_usd": 284848.889020181,
+      "current_liquidity_usd": 58698.4654,
+      "current_multiple": 1.3,
       "ath_price_usd": 0.0009735537972658439,
       "ath_multiple": 4.198,
       "ath_at": "2026-10-08T16:50:11.093497+00:00",
@@ -1907,7 +1919,8 @@
         1.89,
         1.478,
         1.526,
-        1.573
+        1.573,
+        1.3
       ]
     },
     "solana:Fe7bpDYCs74GqiCUF14HwgUMToPKV1d9mDYVX5BTohFr": {
@@ -1918,11 +1931,11 @@
       "entry_price_usd": 0.00041017455711996867,
       "entry_market_cap_usd": 410247.6312,
       "entry_liquidity_usd": 69113.9754,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.0032714058886663512,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.00331022114200166,
       "current_market_cap_usd": 0.0,
-      "current_liquidity_usd": 215556.6439,
-      "current_multiple": 7.976,
+      "current_liquidity_usd": 215187.3661,
+      "current_multiple": 8.07,
       "ath_price_usd": 0.0035912299955246844,
       "ath_multiple": 8.755,
       "ath_at": "2026-10-10T11:48:12.837606+00:00",
@@ -1949,7 +1962,8 @@
         7.42,
         8.755,
         7.721,
-        7.976
+        7.976,
+        8.07
       ]
     },
     "solana:J4AzHntuXg1Nu4BoJa42Kc7RNohQote6EPxBAuVqzDiy": {
@@ -1960,11 +1974,11 @@
       "entry_price_usd": 2.0274876760591855e-05,
       "entry_market_cap_usd": 20269.4197636902,
       "entry_liquidity_usd": 12638.7229,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 5.113160168568353e-06,
-      "current_market_cap_usd": 5111.7839586041,
-      "current_liquidity_usd": 5270.8907,
-      "current_multiple": 0.252,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 5.155147025450379e-06,
+      "current_market_cap_usd": 5153.7595138144,
+      "current_liquidity_usd": 5253.8233,
+      "current_multiple": 0.254,
       "ath_price_usd": 2.0274876760591855e-05,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-08T02:43:06.848092+00:00",
@@ -1985,7 +1999,8 @@
         0.287,
         0.287,
         0.256,
-        0.252
+        0.252,
+        0.254
       ]
     },
     "solana:65GHmCbyRME3XwKjTqDB7pMJw2gvj2LZryfWKczoAqFR": {
@@ -1996,11 +2011,11 @@
       "entry_price_usd": 0.00041445494760350627,
       "entry_market_cap_usd": 425087.954,
       "entry_liquidity_usd": 66535.5503,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 9.380084085782647e-06,
-      "current_market_cap_usd": 9380.084086,
-      "current_liquidity_usd": 8413.6431,
-      "current_multiple": 0.023,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 9.030002301052186e-06,
+      "current_market_cap_usd": 9030.002301,
+      "current_liquidity_usd": 8215.8711,
+      "current_multiple": 0.022,
       "ath_price_usd": 0.00041445494760350627,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-08T09:29:35.815691+00:00",
@@ -2020,7 +2035,8 @@
         0.037,
         0.031,
         0.023,
-        0.023
+        0.023,
+        0.022
       ]
     },
     "solana:6Fpp3Cbenqgr9sBMkqovV2oAprUiMMMSJLq2XVsxWheA": {
@@ -2031,11 +2047,11 @@
       "entry_price_usd": 2.740766985908536e-05,
       "entry_market_cap_usd": 27407.66986,
       "entry_liquidity_usd": 14430.4931,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 6.416172181251904e-06,
-      "current_market_cap_usd": 6416.172181,
-      "current_liquidity_usd": 5921.2632,
-      "current_multiple": 0.234,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 6.397155547044934e-06,
+      "current_market_cap_usd": 6397.155547,
+      "current_liquidity_usd": 5854.0298,
+      "current_multiple": 0.233,
       "ath_price_usd": 2.740766985908536e-05,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-08T09:29:35.828725+00:00",
@@ -2055,7 +2071,8 @@
         0.247,
         0.272,
         0.23,
-        0.234
+        0.234,
+        0.233
       ]
     },
     "solana:GV5G2ZGz2vKzhXcSoUxgpFbLYanNgSRth1c3NxjWbbYk": {
@@ -2066,11 +2083,11 @@
       "entry_price_usd": 0.00032206647930059626,
       "entry_market_cap_usd": 328832.959,
       "entry_liquidity_usd": 55295.8276,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.00042935909312585575,
-      "current_market_cap_usd": 429415.0044,
-      "current_liquidity_usd": 65683.4989,
-      "current_multiple": 1.333,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.000266620411149325,
+      "current_market_cap_usd": 272195.9427,
+      "current_liquidity_usd": 51766.3086,
+      "current_multiple": 0.828,
       "ath_price_usd": 0.0007431420297442059,
       "ath_multiple": 2.307,
       "ath_at": "2026-10-09T01:42:12.241067+00:00",
@@ -2092,7 +2109,8 @@
         1.571,
         1.778,
         1.42,
-        1.333
+        1.333,
+        0.828
       ]
     },
     "solana:ECwdqUHEQBDCcBLEcTE2drfZqxfcNoMRE8Gzdb8QS52r": {
@@ -2103,11 +2121,11 @@
       "entry_price_usd": 2.7640583648805734e-05,
       "entry_market_cap_usd": 27640.58365,
       "entry_liquidity_usd": 13966.7071,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 1.1893480571219918e-05,
-      "current_market_cap_usd": 11893.48057,
-      "current_liquidity_usd": 8766.3457,
-      "current_multiple": 0.43,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 1.2606441656946354e-05,
+      "current_market_cap_usd": 12606.44166,
+      "current_liquidity_usd": 8937.4144,
+      "current_multiple": 0.456,
       "ath_price_usd": 7.893547862535014e-05,
       "ath_multiple": 2.856,
       "ath_at": "2026-10-09T01:42:12.241067+00:00",
@@ -2127,7 +2145,8 @@
         0.534,
         0.488,
         0.412,
-        0.43
+        0.43,
+        0.456
       ]
     },
     "solana:A7nWJWGUjNyWbVNPA5RrvLoF37j3ovdh8DKdgxYefcdk": {
@@ -2138,11 +2157,11 @@
       "entry_price_usd": 0.00011605756327738162,
       "entry_market_cap_usd": 113999.924611104,
       "entry_liquidity_usd": 34946.714,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 3.683792279082785e-05,
-      "current_market_cap_usd": 35539.9496523079,
-      "current_liquidity_usd": 19348.1578,
-      "current_multiple": 0.317,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 3.8977793468488786e-05,
+      "current_market_cap_usd": 37602.3283628962,
+      "current_liquidity_usd": 19702.5988,
+      "current_multiple": 0.336,
       "ath_price_usd": 0.00011605756327738162,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-09T01:41:10.072369+00:00",
@@ -2159,7 +2178,8 @@
         0.376,
         0.542,
         0.376,
-        0.317
+        0.317,
+        0.336
       ]
     },
     "solana:5boXyCRb4ScZMw9uBj52YVQTR2GzJ1hBNxb3Ys9nph82": {
@@ -2170,11 +2190,11 @@
       "entry_price_usd": 3.756748722726038e-05,
       "entry_market_cap_usd": 37602.38344,
       "entry_liquidity_usd": 18690.7916,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 9.315616844403386e-06,
-      "current_market_cap_usd": 9315.616844,
-      "current_liquidity_usd": 8423.7129,
-      "current_multiple": 0.248,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 9.019977138582058e-06,
+      "current_market_cap_usd": 9019.977139,
+      "current_liquidity_usd": 8228.0432,
+      "current_multiple": 0.24,
       "ath_price_usd": 3.756748722726038e-05,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-09T08:00:43.088431+00:00",
@@ -2190,7 +2210,8 @@
         0.306,
         0.329,
         0.267,
-        0.248
+        0.248,
+        0.24
       ]
     },
     "solana:G3TcwprLVFWgWjnu1hpQhKuwcQoGB99PPm5aCTzS7kLd": {
@@ -2201,11 +2222,11 @@
       "entry_price_usd": 0.00028366790829057104,
       "entry_market_cap_usd": 284196.7982,
       "entry_liquidity_usd": 51143.74,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 4.437046478095424e-05,
-      "current_market_cap_usd": 44370.46478,
-      "current_liquidity_usd": 19556.684,
-      "current_multiple": 0.156,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 5.436639511476973e-05,
+      "current_market_cap_usd": 54366.39511,
+      "current_liquidity_usd": 21653.5473,
+      "current_multiple": 0.192,
       "ath_price_usd": 0.00028366790829057104,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-09T15:17:24.551269+00:00",
@@ -2220,7 +2241,8 @@
         0.179,
         0.196,
         0.158,
-        0.156
+        0.156,
+        0.192
       ]
     },
     "solana:2uZuTQEjcXcR1ESwMdGTpqEwM5PCekEwrSNVRPc1EhS1": {
@@ -2231,11 +2253,11 @@
       "entry_price_usd": 0.00012177306395682988,
       "entry_market_cap_usd": 120665.766594094,
       "entry_liquidity_usd": 33970.7705,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 4.639426250182102e-06,
-      "current_market_cap_usd": 4612.0171499259,
-      "current_liquidity_usd": 5254.6278,
-      "current_multiple": 0.038,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 4.698869060152478e-06,
+      "current_market_cap_usd": 4671.108779879,
+      "current_liquidity_usd": 5300.9207,
+      "current_multiple": 0.039,
       "ath_price_usd": 0.00012301549250526286,
       "ath_multiple": 1.01,
       "ath_at": "2026-10-10T00:03:05.094550+00:00",
@@ -2249,7 +2271,8 @@
         0.847,
         0.048,
         0.038,
-        0.038
+        0.038,
+        0.039
       ]
     },
     "solana:FhtSNNk7euCuAuJfNwUbEqzUt5YWHhGZHuzrq4xcyZCQ": {
@@ -2260,11 +2283,11 @@
       "entry_price_usd": 0.0001460710603682552,
       "entry_market_cap_usd": 146726.837835684,
       "entry_liquidity_usd": 38913.2553,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.00010113861249731256,
-      "current_market_cap_usd": 100334.106704773,
-      "current_liquidity_usd": 31984.2302,
-      "current_multiple": 0.692,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 6.083213002906618e-05,
+      "current_market_cap_usd": 60348.2416323306,
+      "current_liquidity_usd": 24708.7964,
+      "current_multiple": 0.416,
       "ath_price_usd": 0.0001792928497490175,
       "ath_multiple": 1.227,
       "ath_at": "2026-10-10T11:48:12.837606+00:00",
@@ -2276,7 +2299,8 @@
         0.998,
         1.227,
         0.627,
-        0.692
+        0.692,
+        0.416
       ]
     },
     "solana:Gma1QtoLJHroZhod4bjW5ee9JoeJQ7zJsTadmVfSiBve": {
@@ -2287,11 +2311,11 @@
       "entry_price_usd": 0.0002638706707116998,
       "entry_market_cap_usd": 259690.485844284,
       "entry_liquidity_usd": 42917.7897,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.00020430151947716625,
-      "current_market_cap_usd": 204266.11072155,
-      "current_liquidity_usd": 38165.7359,
-      "current_multiple": 0.774,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.0001635944950943947,
+      "current_market_cap_usd": 161002.864779429,
+      "current_liquidity_usd": 33708.3562,
+      "current_multiple": 0.62,
       "ath_price_usd": 0.0002638706707116998,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-10T16:50:09.935131+00:00",
@@ -2301,7 +2325,8 @@
       "multiple_history": [
         1.0,
         1.0,
-        0.774
+        0.774,
+        0.62
       ]
     },
     "solana:9d6fbbtAGjM6eFHo4NpsPrDgnwhZNdetgewHmupZTVjV": {
@@ -2312,11 +2337,11 @@
       "entry_price_usd": 0.0003561829970392623,
       "entry_market_cap_usd": 340712.153156709,
       "entry_liquidity_usd": 59154.458,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.00017026663841572905,
-      "current_market_cap_usd": 162148.499607241,
-      "current_liquidity_usd": 41041.9468,
-      "current_multiple": 0.478,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.00015142265893105728,
+      "current_market_cap_usd": 144202.981632915,
+      "current_liquidity_usd": 38094.1751,
+      "current_multiple": 0.425,
       "ath_price_usd": 0.0003916952683753853,
       "ath_multiple": 1.1,
       "ath_at": "2026-10-10T16:50:32.197391+00:00",
@@ -2326,7 +2351,8 @@
       "multiple_history": [
         1.0,
         1.1,
-        0.478
+        0.478,
+        0.425
       ]
     },
     "solana:2tqyiusynfmwfgFDndWR2FszsCrwMJ4r7GJP9BAXGJxE": {
@@ -2337,11 +2363,11 @@
       "entry_price_usd": 4.525106859677878e-05,
       "entry_market_cap_usd": 45251.0686,
       "entry_liquidity_usd": 18317.2589,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 2.416284098461518e-05,
-      "current_market_cap_usd": 24603.50713,
-      "current_liquidity_usd": 13296.7758,
-      "current_multiple": 0.534,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 2.6192830021560092e-05,
+      "current_market_cap_usd": 26192.83002,
+      "current_liquidity_usd": 13522.9476,
+      "current_multiple": 0.579,
       "ath_price_usd": 4.525106859677878e-05,
       "ath_multiple": 1.0,
       "ath_at": "2026-10-10T16:50:09.969733+00:00",
@@ -2351,7 +2377,8 @@
       "multiple_history": [
         1.0,
         0.988,
-        0.534
+        0.534,
+        0.579
       ]
     },
     "solana:ARcvd2GiVSmz7oR2ozpe3KzVBadsVrEav5DdnVJ8sjhK": {
@@ -2362,20 +2389,45 @@
       "entry_price_usd": 0.0003827249789567681,
       "entry_market_cap_usd": 374480.6912,
       "entry_liquidity_usd": 59002.5744,
-      "last_checked_at": "2026-10-10T20:28:10.800470+00:00",
-      "current_price_usd": 0.0003738153714177643,
-      "current_market_cap_usd": 373815.3714,
-      "current_liquidity_usd": 60076.1192,
-      "current_multiple": 0.977,
-      "ath_price_usd": 0.0003827249789567681,
-      "ath_multiple": 1.0,
-      "ath_at": "2026-10-10T20:27:08.672789+00:00",
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 0.0004014303193731808,
+      "current_market_cap_usd": 395906.3775,
+      "current_liquidity_usd": 61533.7456,
+      "current_multiple": 1.049,
+      "ath_price_usd": 0.0004014303193731808,
+      "ath_multiple": 1.049,
+      "ath_at": "2026-10-10T23:44:14.492313+00:00",
       "milestones_hit": [],
       "status_note": null,
       "dex_url": "https://www.geckoterminal.com/solana/pools/ARcvd2GiVSmz7oR2ozpe3KzVBadsVrEav5DdnVJ8sjhK",
       "multiple_history": [
         1.0,
-        0.977
+        0.977,
+        1.049
+      ]
+    },
+    "solana:BFWTFa7QR4knm3AwpdicA7uNytnw1wi13LHQT9TCWaKt": {
+      "symbol": "SWITCHED",
+      "chain": "solana",
+      "pool_address": "BFWTFa7QR4knm3AwpdicA7uNytnw1wi13LHQT9TCWaKt",
+      "first_seen_at": "2026-10-10T23:43:44.002255+00:00",
+      "entry_price_usd": 5.256745563707975e-05,
+      "entry_market_cap_usd": 52567.45564,
+      "entry_liquidity_usd": 20915.3984,
+      "last_checked_at": "2026-10-10T23:44:14.492313+00:00",
+      "current_price_usd": 5.131804438855408e-05,
+      "current_market_cap_usd": 51318.04439,
+      "current_liquidity_usd": 20933.2901,
+      "current_multiple": 0.976,
+      "ath_price_usd": 5.256745563707975e-05,
+      "ath_multiple": 1.0,
+      "ath_at": "2026-10-10T23:43:44.002255+00:00",
+      "milestones_hit": [],
+      "status_note": null,
+      "dex_url": "https://www.geckoterminal.com/solana/pools/BFWTFa7QR4knm3AwpdicA7uNytnw1wi13LHQT9TCWaKt",
+      "multiple_history": [
+        1.0,
+        0.976
       ]
     }
   },
