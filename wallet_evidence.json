@@ -1459,6 +1459,7 @@
   "0xc8d7859b77d178ba13334a910f5c33b0512398c7": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:HYPER:0x7bd0aeffb284566e082933ff8cf044ff6c25df2d",
       "ethereum:DOGEBALL:0x1f4c80e6ff41a6593fc7eb8f93679c93d41ef9b4"
     ]
   },
@@ -1513,6 +1514,7 @@
   "0xe8bae51cc3fcf58b29bea73db4fdba843b9e078d": {
     "chain": "ethereum",
     "evidence_tokens": [
+      "ethereum:HYPER:0x7bd0aeffb284566e082933ff8cf044ff6c25df2d",
       "ethereum:DOGEBALL:0x1f4c80e6ff41a6593fc7eb8f93679c93d41ef9b4"
     ]
   },
@@ -1562,6 +1564,12 @@
     "chain": "ethereum",
     "evidence_tokens": [
       "ethereum:WSE:0xfe11848d02bb0df4fce022a97bc1d094be83d15e"
+    ]
+  },
+  "0xbeb2d119493e4209159b65d60e4f178303bcfc9d": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:FTR:0xaaf40568a70305979408fe38e913f883034b0f4d"
     ]
   }
 }

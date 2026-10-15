@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15T19:02:00.600863+00:00",
+  "last_updated": "2026-10-15T21:03:30.756908+00:00",
   "wallet_activity": [
     {
       "label": "Smart Money (auto, 2x)",
@@ -2673,6 +2673,24 @@
       "evidence_tokens": [
         "ethereum:INCOGNITO:0x398c09f3482c2c4f591204dea79aab9ad1d403c7",
         "ethereum:CITADEL:0x3d13a164a4343279164278231731c22d3faa6a15"
+      ]
+    },
+    {
+      "address": "0xc8d7859b77d178ba13334a910f5c33b0512398c7",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:HYPER:0x7bd0aeffb284566e082933ff8cf044ff6c25df2d",
+        "ethereum:DOGEBALL:0x1f4c80e6ff41a6593fc7eb8f93679c93d41ef9b4"
+      ]
+    },
+    {
+      "address": "0xe8bae51cc3fcf58b29bea73db4fdba843b9e078d",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:HYPER:0x7bd0aeffb284566e082933ff8cf044ff6c25df2d",
+        "ethereum:DOGEBALL:0x1f4c80e6ff41a6593fc7eb8f93679c93d41ef9b4"
       ]
     }
   ],
