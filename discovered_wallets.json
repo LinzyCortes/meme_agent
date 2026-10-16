@@ -301,5 +301,13 @@
       "ethereum:HYPER:0x7bd0aeffb284566e082933ff8cf044ff6c25df2d",
       "ethereum:DOGEBALL:0x1f4c80e6ff41a6593fc7eb8f93679c93d41ef9b4"
     ]
+  },
+  "0x0a2f6623c2978517079f5a9690bc202db031b6d2": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:EET:0x6e1fc72e412b9552b3ed432551e718ede8b12146",
+      "ethereum:CTC:0x1f0608f86129b0cc0d1249a21d32f7a3f0d86504"
+    ]
   }
 }
