@@ -310,5 +310,37 @@
       "ethereum:EET:0x6e1fc72e412b9552b3ed432551e718ede8b12146",
       "ethereum:CTC:0x1f0608f86129b0cc0d1249a21d32f7a3f0d86504"
     ]
+  },
+  "0xb49f55346ac6fb325f1e426181847e8f9131b1e8": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:WSE:0xfe11848d02bb0df4fce022a97bc1d094be83d15e",
+      "ethereum:FTR):0x322f7965cf7ed96e6b2061b8e97495929c1ce996"
+    ]
+  },
+  "0xe38a20315ea6ffc04d7c75fc6f9dbf65c447a155": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:WSE:0xfe11848d02bb0df4fce022a97bc1d094be83d15e",
+      "ethereum:FTR):0x322f7965cf7ed96e6b2061b8e97495929c1ce996"
+    ]
+  },
+  "0xc21320c8ab1fe3d7175f9488a2e50d14ddc9b4af": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:WSE:0xfe11848d02bb0df4fce022a97bc1d094be83d15e",
+      "ethereum:FTR):0x322f7965cf7ed96e6b2061b8e97495929c1ce996"
+    ]
+  },
+  "0x89951d0eacfd0cb0b7cf83da8168729efbc6df99": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:WSE:0xfe11848d02bb0df4fce022a97bc1d094be83d15e",
+      "ethereum:FTR):0x322f7965cf7ed96e6b2061b8e97495929c1ce996"
+    ]
   }
 }
