@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18T06:18:10.031048+00:00",
+  "last_updated": "2026-10-18T10:35:20.837198+00:00",
   "wallet_activity": [
     {
       "label": "Smart Money (auto, 6x)",
@@ -2410,14 +2410,15 @@
     {
       "address": "0x1af34b3c841f30c250c2e374a7c17eaed6c307d9",
       "chain": "ethereum",
-      "appearances": 6,
+      "appearances": 7,
       "evidence_tokens": [
         "ethereum:PANW:0x9dc9376ff35ab22d1b5e7bf2c6ec47865552a974",
-        "ethereum:AIR.PA:0x5042ef8327abd3c0731df394d9b7be51018ecd8b",
         "ethereum:TEAM:0x2c4092b3acbf2170d4d382157f2b4be505fb4fd0",
-        "ethereum:NVO:0x5b1acf28f901694ebe82ed1b33e364e1795d7b5d",
         "ethereum:DELL:0xf69596a91451041b64081229da6dabf8c3059f0a",
-        "ethereum:SCHW:0xa00f26bb4331f09b139cffcac94cbdbeba74f9fd"
+        "ethereum:AIR.PA:0x5042ef8327abd3c0731df394d9b7be51018ecd8b",
+        "ethereum:SCHW:0xa00f26bb4331f09b139cffcac94cbdbeba74f9fd",
+        "ethereum:SLC:0x015acf8b6e20f8f8d6de5688a87f046073b69c57",
+        "ethereum:NVO:0x5b1acf28f901694ebe82ed1b33e364e1795d7b5d"
       ]
     },
     {
