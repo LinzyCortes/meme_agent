@@ -1,6 +1,5 @@
 {
   "seen_txs": [
-    "0x095ca1be6f87c9bbe01e709084a589ff26e087d7db5e8e5c2265e28ba99f4d73",
     "0x4729c090d22ec884fca30aa4f1208d68dfd42ad22bde4f58eceb142f72c51dd9",
     "0x9fc6808829144ca212d664b4b5f7e9b4161af6dc577c1128cee133ab891a45a3",
     "0x0219222513418589269891d0dd44e047919a6ce543bef9cfc37ab99caa3842ea",
@@ -1999,7 +1998,8 @@
     "0xf5e6965a41d5b772d3b6a19fa56f537cfcc1bf4e283c9956efb6129a4cc9d24b",
     "0x1a580b8a8f985dce86a8ad0d77b7bd1f50ce11c95322ece211782b54c093ecac",
     "0xed2509ede274b99dec045c3135048a5b4ec11e161a6a6477be81770483f173fe",
-    "0x2813ef035524524ef9daf814faea94ac941199594f0dde54fd999b0a6fc7b6e3"
+    "0x2813ef035524524ef9daf814faea94ac941199594f0dde54fd999b0a6fc7b6e3",
+    "0xac26ff89c3220849ca14ecd58cb47717cca51dc4d4c7b9e85b0521eaabf64d12"
   ],
   "seen_tokens": [
     "solana:2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
@@ -2176,6 +2176,8 @@
     "solana:HaEwLk7YSUN3TSyiT87Zzwq1JDpGvP2mvFfpBdE8Seit",
     "solana:CYE8bNGpo5RZRUEVnjxCRh997r8crqUtSUvJVPVBHBHJ",
     "solana:3ENsvQnHuHtQzMBxpDG4pkxwbBnzJvFcz2yyCfxC9QNH",
-    "solana:HNJY1mVocFbPNxWtAnscCeqnR5t2aCkYfYUSKWjHEE3J"
+    "solana:HNJY1mVocFbPNxWtAnscCeqnR5t2aCkYfYUSKWjHEE3J",
+    "solana:HRMcDD9XawGTXH6QkBZs1mtiwyjTfg4bDMrL5DcjwXnb",
+    "solana:9YF6sZskPr7yEShde3MqP4aCxgYNRicdrXpxr9gFYe27"
   ]
 }
