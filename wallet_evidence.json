@@ -2064,5 +2064,23 @@
     "evidence_tokens": [
       "ethereum:BTC:0x6f6982be846b9155ae1b62f9730014004ff7dc1d"
     ]
+  },
+  "0xce55aa7add0cea71f2cd0c2671c6f9a283d9fb8f": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:NMS:0x2d537613ecfafb504c13e618534010fdc642ec69"
+    ]
+  },
+  "0x2d109c4d3b981c493c33fec845afbb7d82bc804f": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:NMS:0x2d537613ecfafb504c13e618534010fdc642ec69"
+    ]
+  },
+  "0xc5cfa6b0ca6f0370ec9e2341c8ab26a61e8709b0": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:NMS:0x2d537613ecfafb504c13e618534010fdc642ec69"
+    ]
   }
 }
