@@ -342,5 +342,21 @@
       "ethereum:WSE:0xfe11848d02bb0df4fce022a97bc1d094be83d15e",
       "ethereum:FTR):0x322f7965cf7ed96e6b2061b8e97495929c1ce996"
     ]
+  },
+  "0xce55aa7add0cea71f2cd0c2671c6f9a283d9fb8f": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:NMS:0x2d537613ecfafb504c13e618534010fdc642ec69",
+      "ethereum:4:0xa18b2725b3619a1857a3fa89c56e8e944b6d5db5"
+    ]
+  },
+  "0x2d109c4d3b981c493c33fec845afbb7d82bc804f": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:NMS:0x2d537613ecfafb504c13e618534010fdc642ec69",
+      "ethereum:4:0xa18b2725b3619a1857a3fa89c56e8e944b6d5db5"
+    ]
   }
 }
