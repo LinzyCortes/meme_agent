@@ -1,9 +1,5 @@
 {
   "seen_txs": [
-    "0x55d4e104578e6523d0313dbdd2526d2e7a7386ecfd202dcc89364db779599571",
-    "0x4e51acbcb2ef4cd5b84bf2596a7b2effa20a84db4dd46ea5ca093d71da48c578",
-    "0x2aec328281a97e46eb00cf13e9f934b098eb3986c17294000081eb9a8e67efe8",
-    "0xedf9c25aeffeceb55c02509de38ed0f2d5f9a1cb54e5778ce9124fbaaa695850",
     "0xd82468761f64b945d0c6f1371056dc63444f004e525ea661d214184f8953175c",
     "0x781cf86c95e5162bc4cff6c40de49238ae8a5b43b7ab38af379add6e3104f39e",
     "0x353c4f8ca9160b9c1cb70fd45d7f3cef9e3101304095a2bd5dd7cbe25607177d",
@@ -1999,7 +1995,11 @@
     "0x6f0aabccf78550bede8cf4df2e3ecd2020f8987d5a8e42abda403fddc22665a0",
     "0x35e5eaf7a034c203fe4f43bd5df5e6d0a9f8fae6fae3d8537e4353ae9e75831b",
     "0x7afd556c3fc843a1fc6438deaec31d2d7a2e9386ba2b7913382c80184d34c3ae",
-    "0xd7e0924b782f9230deea4c7cf438f06ec737fc93935bdf1a879437f7fa55cb14"
+    "0xd7e0924b782f9230deea4c7cf438f06ec737fc93935bdf1a879437f7fa55cb14",
+    "0x96e7e6728a89bfde5dfbe8c4e1763690ca78c6e23f40d20c45b9f7722bcab2ff",
+    "0xf3435bd4e28c444f6a96ebf78b92dc44501587b0c07ee083b0192fece132e713",
+    "0xe87a01dd060655f85633827bb66cdd4704c547ccd000de3ffb76b075427d1ce3",
+    "0x81265c533495411df07290c69bf1fe8f057a2f93cd8acc7f78fa20e40f8c8732"
   ],
   "seen_tokens": [
     "solana:2idKXG1UGHXeS4UezZV6776dCuEiB8y4aRGzvLvhXL8u",
@@ -2243,6 +2243,7 @@
     "solana:2yyP1cEXm4VZEHSGpqnWGxcZ3kSSVAK7m3j5nsKmFAhE",
     "solana:Db4jZrHQTFKEeAMVVtiyLRNpqT2W1XEoFrj9KxxpS3Z7",
     "ethereum:0xc16b3e248d969e0f7860cbd527322603ee8dc00ddf416c272410663a933bed27",
-    "solana:Ht4GxW1pL2SfamcfC3qcZEcjDHpE55TtjUjnKVs2nhxr"
+    "solana:Ht4GxW1pL2SfamcfC3qcZEcjDHpE55TtjUjnKVs2nhxr",
+    "solana:6qfkD7d8RaFVAn1FC76M5MtqAr3kHrHpxPwMQvL6Ndxt"
   ]
 }
