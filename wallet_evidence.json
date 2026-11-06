@@ -2366,5 +2366,17 @@
     "evidence_tokens": [
       "ethereum:LI:0xe5b972fdd37c6d7bb282d91427421056da4ae344"
     ]
+  },
+  "0x7fedebc96622b779088539656bd4b7d1b52eef02": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:SMCI:0x1b234affb7e875b204b521d3e534aa9231b29887"
+    ]
+  },
+  "0x177f9a071cc6bcf87f7b8b39fb8c6f3fc106c547": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:SMCI:0x1b234affb7e875b204b521d3e534aa9231b29887"
+    ]
   }
 }
