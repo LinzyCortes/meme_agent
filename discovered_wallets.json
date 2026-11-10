@@ -358,5 +358,13 @@
       "ethereum:NMS:0x2d537613ecfafb504c13e618534010fdc642ec69",
       "ethereum:4:0xa18b2725b3619a1857a3fa89c56e8e944b6d5db5"
     ]
+  },
+  "0xb1bb546a06592e6611af7996e8ffaa51261fb410": {
+    "chain": "ethereum",
+    "appearances": 2,
+    "evidence_tokens": [
+      "ethereum:ABNB:0x95a218cd89528d7c9fc26db442d470af521626dd",
+      "ethereum:TTE:0x152e50ca48954ef85924806a864ca611e966a691"
+    ]
   }
 }
