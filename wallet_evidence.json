@@ -2492,7 +2492,8 @@
   "0xa331d7b401a11f171dc1e02cab2a2012dc1c8478": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0xffee55cddadddc035e560dd8a067314bbe716328": {
@@ -2510,7 +2511,8 @@
   "0xa46e207bf9dd39bfa371935dd5306ccfc3fc71db": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0xf3f1a2f24549d8fde11c5f2d9d4674bbe1225ec3": {
@@ -2522,25 +2524,29 @@
   "0xfdd4d3e389e8d29d40848c42e96a860b22da8862": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0x487b341dc8d533c9f423a3c2eaadd2fc8e81b3d0": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0xdf5872c8f05bbf0ea35c62d22562e4ed9568eecb": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0x8f9dc12281f953b7becfe26941029d176a5425b6": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0x19de269b2c93b5f2cbf7b411acfaf6a709647e47": {
@@ -2552,7 +2558,8 @@
   "0x3fbb0c87e59059988fb5e2ba1ee2d84d88a23bdf": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0x960396d7e2121c5e6c349cac143c4638018dcb50": {
@@ -2565,6 +2572,12 @@
     "chain": "ethereum",
     "evidence_tokens": [
       "ethereum:CLAUDIA:0xcce03a9935231c46a6c3c8d29a5fe9cbc0ed4032"
+    ]
+  },
+  "0xc2e886422182d778fb05495ea22399e3aa2e2ec3": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   }
 }
