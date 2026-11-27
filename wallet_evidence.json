@@ -2462,13 +2462,15 @@
   "0x8d30419c88b256a00314076bd2028c9a8b40aebb": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0x5caafc0cbf880bfbc1930b852f3a984147b3d300": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0x8630a2004d83ba7060239ccefc03b936416b116b": {
@@ -2499,13 +2501,15 @@
   "0xffee55cddadddc035e560dd8a067314bbe716328": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0x31ce97a98afc401e3874cbc2e1ae4c57a8c5c36b": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0xa46e207bf9dd39bfa371935dd5306ccfc3fc71db": {
@@ -2518,7 +2522,8 @@
   "0xf3f1a2f24549d8fde11c5f2d9d4674bbe1225ec3": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0xfdd4d3e389e8d29d40848c42e96a860b22da8862": {
@@ -2552,7 +2557,8 @@
   "0x19de269b2c93b5f2cbf7b411acfaf6a709647e47": {
     "chain": "ethereum",
     "evidence_tokens": [
-      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba"
+      "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
     ]
   },
   "0x3fbb0c87e59059988fb5e2ba1ee2d84d88a23bdf": {
@@ -2578,6 +2584,18 @@
     "chain": "ethereum",
     "evidence_tokens": [
       "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
+    ]
+  },
+  "0x25cdcf268b19e28bded077e9d75e4d8dd4ffdb99": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
+    ]
+  },
+  "0xad6bed925af2304615f44a572f4c416fcaba9f6c": {
+    "chain": "ethereum",
+    "evidence_tokens": [
+      "ethereum:ElONJIMMY:0x4a4273c572dce1dc602fb150a12ab23545851f65"
     ]
   }
 }

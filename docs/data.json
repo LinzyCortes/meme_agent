@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T06:23:10.253037+00:00",
+  "last_updated": "2026-11-27T07:19:09.220073+00:00",
   "wallet_activity": [
     {
       "label": "Smart Money (auto, 8x)",
@@ -2790,6 +2790,60 @@
     },
     {
       "address": "0x3fbb0c87e59059988fb5e2ba1ee2d84d88a23bdf",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+        "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
+      ]
+    },
+    {
+      "address": "0x8d30419c88b256a00314076bd2028c9a8b40aebb",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+        "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
+      ]
+    },
+    {
+      "address": "0x5caafc0cbf880bfbc1930b852f3a984147b3d300",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+        "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
+      ]
+    },
+    {
+      "address": "0xffee55cddadddc035e560dd8a067314bbe716328",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+        "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
+      ]
+    },
+    {
+      "address": "0x31ce97a98afc401e3874cbc2e1ae4c57a8c5c36b",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+        "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
+      ]
+    },
+    {
+      "address": "0xf3f1a2f24549d8fde11c5f2d9d4674bbe1225ec3",
+      "chain": "ethereum",
+      "appearances": 2,
+      "evidence_tokens": [
+        "ethereum:DCTY:0x2405e4c5417321976256018b683b31383cd9acba",
+        "ethereum:KURO:0xe898877656f0579ffc4cafd335134a38e8e270e4"
+      ]
+    },
+    {
+      "address": "0x19de269b2c93b5f2cbf7b411acfaf6a709647e47",
       "chain": "ethereum",
       "appearances": 2,
       "evidence_tokens": [
